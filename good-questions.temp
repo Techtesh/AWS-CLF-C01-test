@@ -1,0 +1,726 @@
+@Revision Topics
+Glacier
+Elastic Beanstalk
+AWS Migration Hub
+CloudHSM
+Amazon Connect.
+AWS Quick Starts
+AWS Operations Support
+DAX
+Amazon Cloud Directory
+AWS Cloud9
+Amazon Chime
+Amazon Polly
+Amazon Neptune
+AWS Application Discovery Service.
+CloudEndure Disaster Recovery
+CloudEndure Migration.
+AWS Backup
+Amazon MQ.
+AWS Control Tower.
+Amazon Macie.
+AWS Systems Manager Patch Manager.
+AWS Systems Manager Patch Manager AWS Security Hub.
+Amazon Connect. vs Amazon CloudFront.
+AWS VPN. vs  API Gateway.
+Q3: A business analyst would like to move away from creating complex database queries and static spreadsheets when generating regular reports for high-level management. They would like to publish insightful, graphically appealing reports with interactive dashboards. Which service can they use to accomplish this?
+
+A. Amazon QuickSight
+B. Business intelligence on Amazon Redshift
+C. Amazon CloudWatch dashboards
+D. Amazon Athena integrated with Amazon Glue
+
+Correct Answer – A
+
+Explanation : 
+
+Amazon QuickSight is the most appropriate service in the scenario. It is a fully-managed service that allows for insightful business intelligence reporting with creative data delivery methods, including graphical and interactive dashboards. QuickSight includes machine learning that allows users to discover inconspicuous trends and patterns on their datasets.
+
+AWS Quick Sight
+AWS Quick Sight tool | Source: aws.amazon.com/quicksight
+Option B is INCORRECT. Amazon Redshift service is a data warehouse and will not meet the requirements of interactive dashboards and dynamic means of delivering reports.
+Option C is INCORRECT. Amazon CloudWatch dashboards will not accomplish the requirements of the scenario. They are used to monitor AWS system resources and infrastructure services, though they are customizable and present information graphically.
+Option D is INCORRECT. Amazon Athena is a query service that allows for easy data analysis in Amazon S3 by using standard SQL. The service does not meet the requirements of the scenario. 
+
+
+
+
+Q4. What is the AWS feature that enables fast, easy and secure transfers of files over long distances between your client and your Amazon S3 bucket?
+
+A. File Transfer
+B. HTTP Transfer
+C. Amazon S3 Transfer Acceleration
+D. S3 Acceleration
+
+Answer – C
+
+Explanation : 
+
+The AWS Documentation mentions the following.
+
+Amazon S3 Transfer Acceleration enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
+
+For more information on S3 transfer acceleration, please visit the Link: http://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html
+
+Options A, B and D are incorrect. These features deal with transferring data but not between clients and an S3 bucket.
+
+
+
+
+Q12: An organization runs several EC2 instances inside a VPC using three subnets, one for Development, one for Test, and one for Production. The Security team has some concerns about the VPC configuration. It requires restricting communication across the EC2 instances using Security Groups.
+
+Which of the following options is true for Security Groups related to the scenario?
+
+A. You can change a Security Group associated with an instance if the instance is in the running state.
+B. You can change a Security Group associated with an instance if the instance is in the hibernate state.
+C. You can change a Security Group only if there are no instances associated to it.
+D. The only Security Group you can change is the Default Security Group.
+
+Answer: A
+
+Explanation : 
+
+Option A is CORRECT because the AWS documentation mentions it in the section called “Changing an Instance’s Security Group” using the following sentence: “After you launch an instance into a VPC, you can change the security groups that are associated with the instance. You can change the security groups for an instance when the instance is in the running or stopped state.”
+
+AWS Shield – All AWS customers benefit from the automatic protections of AWS Shield Standard, at no additional charge. AWS Shield Standard defends against most common, frequently occurring network and transport layer DDoS attacks that target your web site or applications
+
+AWS Shield Advanced – For higher levels of protection against attacks targeting your web applications running on Amazon EC2, Elastic Load Balancing (ELB), CloudFront, and Route 53 resources, you can subscribe to AWS Shield Advanced. AWS Shield Advanced provides expanded DDoS attack protection for these resources.
+
+For more information on AWS Shield, please refer to the below URL:https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html
+
+0Q23: AWS offers two savings plans to enable more savings and flexibility for its customers, namely, compute saving plans and EC2 Instance Savings plans.
+
+Which of the below statement is FALSE regarding Saving Plans?
+
+A. Capacity Reservations are not provided with Saving Plans.
+B. Savings Plans are available for all the regions.
+C. Savings plans will apply on ‘On-Demand Capacity Reservations’ that customers can allocate for their needs.
+D. The prices for Savings Plans do not change based on the amount of hourly commitment.
+
+Answer: B
+
+Explanation : 
+
+Option A is INCORRECT. The given statement is True.
+Option B is CORRECT. The given statement is False. For China Regions, savings plans are not available.
+Option C is INCORRECT. The given statement is True.
+Option D is INCORRECT. The given statement is True.
+
+Q25: Which of the following LightSail Wizard allows the customers to “create a copy of the LightSail instance in EC2”?
+
+A. LightSail Backup
+B. LightSail Copy
+C. Upgrade to EC2
+D. LightSail-EC2 snapshot
+
+Answer: C
+
+Explanation : 
+
+Option A is INCORRECT. LightSail Backup is an invalid option.
+Option B is INCORRECT. LightSail Copy is an invalid option.
+Option C is CORRECT. “Upgrade to EC2” is the feature that allows customers to “create a copy of the LightSail instance in EC2”.
+To get started, you need to export your Lightsail instance manual snapshot. You’ll then use the Upgrade to EC2 wizard to create an instance in EC2.
+Customers who are comfortable with EC2 can then use the EC2 creation wizard or API to create a new EC2 instance as they would from an existing EC2 AMI.
+Option D is INCORRECT. A LightSail-EC2 snapshot is an invalid option.
+
+
+Q26 : Which of the following features of Amazon Connect helps better customer engagement on AWS Cloud ?
+
+A. Push Notification
+B. High Quality Audio
+C. Mailbox Simulator
+D. Reputation Dashboard
+
+Correct Answer: B
+
+Amazon Connect is an omnichannel cloud contact centre which can be setup easily & with low cost. It has following features which helps to provide customers a superior service ,
+
+Telephone as a service
+High quality Audio
+Omnichannel routing
+Web & Mobile Chat
+Task management
+Contact Centre automation
+Rules Engine.
+Option A is incorrect as Push Notification is not a feature of Amazon Connect. It’s one of the features of Amazon Pinpoint.
+Option C is incorrect as Mailbox Simulator is not a feature of Amazon Connect. It’s one of the features of Amazon SES.
+Option D is incorrect as Reputation Dashboard is not a feature of Amazon Connect. It’s one of the features of Amazon SES.
+
+Q31: I have a huge amount of data (images, documents). I want to store them on AWS storage service S3 and know how S3 is priced to make informed decisions. Which of the following is accounted as a cost for S3 storage? Select TWO. 
+
+A. While uploading data to an S3 bucket 
+
+B. Lifecycle transition requests 
+
+C. Outbound data transfer from S3 in US-West to an EC2 instance in US-West 
+
+D. Outbound data transfer to Amazon CloudFront 
+
+E. Outbound data transfer from S3 in US-East to an EC2 instance in US-West 
+
+Correct Answers: B and E 
+
+Explanation: 
+
+Option A is incorrect. Data transferred in from the internet to S3 does not incur any charges. 
+
+Option B is CORRECT. Lifecycle data transfers between the storage classes can be considered as GET/PUT operations from the source storage class to the target storage class which will incur cost. 
+
+Option C is incorrect. Outbound data transfers from S3 within the same Region (including a different AWS account) do not incur any charges. 
+
+Option D is incorrect. Data transferred out to Amazon CloudFront performed as a request by CloudFront to the Origin server (S3) for caching content does not incur any charges. 
+
+Option E is CORRECT since the Outbound data transfer is done out of the region where the S3 bucket resides.
+
+
+Q32: I am using the Amazon Simple Notification Service to send notifications to alert admins whenever the CPU utilization of an EC2 instance crosses 70%. Which of the following can be subscribers to an SNS Topic? (Select TWO) 
+
+A. Email 
+
+B. Amazon S3 
+
+C. AWS Lambda 
+
+D. Amazon CloudWatch 
+
+E. Amazon DynamoDB streams 
+
+Correct Answers: A and C 
+
+Explanation: 
+
+SNS is extremely useful for the fan-out types of applications, i.e., multiple clients that push messages to an SNS topic & multiple listeners can be notified when a message arrives at the Topic. 
+
+Option A is CORRECT. SNS messages can be sent to registered addresses as Email (text-based or Object) who act as subscribers to the notification 
+
+Option B is incorrect. S3 acts as a publisher of SNS notifications. When a file is uploaded to S3, it can publish an event that can then be subscribed to & acted upon 
+
+Option C is CORRECT. A lambda function can subscribe to an SNS Topic and can act on any events that are published to that Topic. An S3 PUT or CREATE event for uploading documents can have a Lambda subscriber that can pull out metadata information contained within the documents & store it in a Dynamo DB database. 
+
+Option D is incorrect. CloudWatch will act as a publisher of events using alarms. Getting back to our scenario, we can set CloudWatch alarms on the CPU utilization metrics of the EC2 instance. The alarms can then be published to an SNS Topic for notifying users. 
+
+Option E is incorrect. Dynamo DB streams are events that are emitted when record modifications occur on a Dynamo DB table like INSERT, UPDATE, etc. They are extremely useful to create informative dashboards in real-time. Dynamo DB streams can trigger a lambda function that can publish a message to an SNS Topic. So we can see here that Dynamo DB stream acts as a publisher of events.  
+
+
+Domain: Technology 
+
+Q 33: I require different levels of access for my application that is installed on an EC2 instance. I have configured an ENI for the same purpose. Which of the following statement is incorrect? 
+
+A. I can detach the primary ENI of my EC2 instance and connect it to another instance for moving its Elastic IP 
+
+B. I can configure a Security Group for my ENI and restrict traffic to the EC2 instance 
+
+C. I can detach a secondary ENI containing a Private IP from one EC2 instance and attach it to another 
+
+D. I can attach an Elastic IP to an EC2 instance in another subnet by releasing it from the ENI in the current subnet to which it is currently attached to 
+
+Correct Answer: A 
+
+### What do you gain from setting up consolidated billing for five different AWS accounts under another master account?
+
+- [ ] AWS services' costs will be reduced to half the original price.
+- [ ] The consolidated billing feature is just for organizational purpose.
+- [x] Each AWS account gets volume discounts.
+- [ ] Each AWS account gets five times the free-tier services capacity.
+
+### Which of the following services allows customers to manage their agreements with AWS?
+
+- [x] AWS Artifact.
+- [ ] AWS Certificate Manager.
+- [ ] AWS Systems Manager.
+- [ ] AWS Organizations.
+
+### What does the AWS Health Dashboard provide? (Choose TWO)
+
+- [x] Detailed troubleshooting guidance to address AWS events impacting your resources.
+- [ ] Health checks for Auto Scaling instances.
+- [ ] Recommendations for Cost Optimization.
+- [ ] A dashboard detailing vulnerabilities in your applications.
+- [x] Personalized view of AWS service health.
+
+### An organization has decided to purchase an Amazon EC2 Reserved Instance (RI) for three years in order to reduce costs. It is possible that the application workloads could change during the reservation period. What is the EC2 Reserved Instance (RI) type that will allow the company to exchange the purchased reserved instance for another reserved instance with higher computing power if they need to?
+
+- [ ] Elastic RI.
+- [ ] Premium RI.
+- [ ] Standard RI.
+- [x] Convertible RI.
+
+### What is the AWS database service that allows you to upload data structured in key-value format?
+
+- [x] Amazon DynamoDB.
+- [ ] Amazon Aurora.
+- [ ] Amazon Redshift.
+- [ ] Amazon RDS.
+
+### A company has moved to AWS recently. Which of the following AWS Services will help ensure that they have the proper security settings? (Choose TWO)
+
+- [x] AWS Trusted Advisor.
+- [x] Amazon Inspector.
+- [ ] Amazon SNS.
+- [ ] Amazon CloudWatch.
+- [ ] Concierge Support Team.
+
+## Which of the following is equivalent to a user name and password and is used to authenticate your programmatic access to AWS services and APIs?
+
+- [ ] Instance Password.
+- [ ] Key pairs.
+- [y] Access Keys.
+- [ ] MFA.
+
+### An organization needs to analyze and process a large number of data sets. Which AWS service should they use?
+
+- [x] Amazon EMR.
+- [ ] Amazon MQ.
+- [ ] Amazon SNS.
+- [ ] Amazon SQS.
+
+### A company has created a solution that helps AWS customers improve their architectures on AWS. Which AWS program may support this company?
+
+- [x] APN Consulting Partners.
+- [ ] AWS TAM.
+- [ ] APN Technology Partners.
+- [ ] AWS Professional Services.
+
+### A company is migrating its on-premises database to Amazon RDS. What should the company do to ensure Amazon RDS costs are kept to a minimum?
+
+- [ ] Right-size before and after migration.
+- [x] Use a Multi-Region Active-Passive architecture.
+- [ ] Combine On-demand Capacity Reservations with Saving Plans.
+- [ ] Use a Multi-Region Active-Active architecture.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## What is the primary storage service used by Amazon RDS database instances?
+
+- [ ] Amazon Glacier.
+- [x] Amazon EBS.
+- [ ] Amazon EFS.
+- [ ] Amazon S3.
+
+### Using Amazon EC2 falls under which of the following cloud computing models?
+
+- [ ] Iaas & SaaS.
+- [x] IaaS.
+- [ ] SaaS.
+- [ ] PaaS.
+
+
+### What does Amazon Elastic Beanstalk provide?
+
+- [x] A PaaS solution to automate application deployment.
+- [ ] A compute engine for Amazon ECS.
+- [ ] A scalable file storage solution for use with AWS and on-premises servers.
+- [ ] A NoSQL database service.
+
+### Under the Shared Responsibility Model, which of the following controls do customers fully inherit from AWS? (Choose TWO)
+
+- [ ] Patch management controls.
+- [ ] Database controls.
+- [ ] Awareness & Training.
+- [x] Environmental controls.
+- [x] Physical controls.
+
+### Savings Plans are available for which of the following AWS compute services? (Choose TWO)
+
+- [ ] AWS Batch.
+- [ ] AWS Outposts.
+- [ ] Amazon Lightsail.
+- [x] Amazon EC2.
+- [x] AWS Lambda.
+
+### What is the AWS tool that enables you to use scripts to manage all AWS services and resources?
+
+- [ ] AWS Console.
+- [ ] AWS Service Catalog.
+- [ ] AWS OpsWorks.
+- [x] AWS CLI.
+
+### How are AWS customers billed for Linux-based Amazon EC2 usage?
+
+- [x] EC2 instances will be billed on one second increments, with a minimum of one minute.
+- [ ] EC2 instances will be billed on one hour increments, with a minimum of one day.
+- [ ] EC2 instances will be billed on one minute increments, with a minimum of one hour.
+- [ ] EC2 instances will be billed on one day increments, with a minimum of one month.
+
+### Which of the following will impact the price paid for an EC2 instance? (Choose TWO)
+
+- [x] Instance type.
+- [ ] The Availability Zone where the instance is provisioned.
+- [x] Load balancing.
+- [ ] Number of buckets.
+- [ ] Number of private IPs.
+
+### A customer spent a lot of time configuring a newly deployed Amazon EC2 instance. After the workload increases, the customer decides to provision another EC2 instance with an identical configuration. How can the customer achieve this?
+
+- [ ] By creating an AWS Config template from the old instance and launching a new instance from it.
+- [ ] By creating an EBS Snapshot of the old instance.
+- [ ] By installing Aurora on EC2 and launching a new instance from it.
+- [x] By creating an AMI from the old instance and launching a new instance from it.
+
+## Which AWS Service provides the current status of all AWS Services in all AWS Regions?
+
+- [x] AWS Service Health Dashboard.
+- [ ] AWS Management Console.
+- [ ] Amazon CloudWatch.
+- [ ] AWS Personal Health Dashboard.
+
+## Which of the following AWS services scale automatically without your intervention? (Choose TWO)
+
+- [ ] Amazon EC2.
+- [x] Amazon S3.
+- [x] AWS Lambda.
+- [ ] Amazon EMR.
+- [ ] Amazon EBS.
+
+### A customer is planning to move billions of images and videos to be stored on Amazon S3. The customer has approximately 60 Petabytes of data to move. Which of the following AWS Services is the best choice to transfer the data to AWS?
+
+- [ ] Snowball.
+- [x] S3 Transfer Acceleration.
+- [ ] Snowmobile.
+- [ ] Amazon VPC.
+
+### Which of the following AWS Services helps with planning application migration to the AWS Cloud?
+
+- [ ] AWS Snowball Migration Service.
+- [x] AWS Application Discovery Service.
+- [ ] AWS DMS.
+- [ ] AWS Migration Hub.
+
+##? A company is trying to analyze the costs applied to their AWS account recently. Which of the following provides them the most granular data about their AWS costs and usage?
+
+- [ ] Amazon Machine Image.
+- [x] AWS Cost Explorer.
+- [ ] AWS Cost & Usage Report.
+- [ ] Amazon CloudWatch.
+
+### Which of the following are factors in determining the appropriate database technology to use for a specific workload? (Choose TWO)
+
+- [ ] Availability Zones.
+- [ ] Data sovereignty.
+- [x] The number of reads and writes per second.
+- [x] The nature of the queries.
+- [ ] Software bugs.
+
+## What are AWS shared controls?
+
+- [ ] Controls that are solely the responsibility of the customer based on the application they are deploying within AWS services.
+- [ ] Controls that a customer inherits from AWS.
+- [x] Controls that apply to both the infrastructure layer and customer layers.
+- [ ] Controls that the customer and AWS collaborate together upon to secure the infrastructure.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+##? Which design principles relate to performance efficiency in AWS? (Choose TWO)
+
+- [x] Build multi-region architectures to better serve global customers.
+- [ ] Apply security at all layers.
+- [ ] Implement strong Identity and Access controls.
+- [x] Use serverless architectures.
+- [ ] Enable audit logging.
+
+##? Which of the following is NOT a characteristic of Amazon Elastic Compute Cloud (Amazon EC2)?
+
+- [ ] Amazon EC2 is considered a Serverless Web Service.
+- [x] Amazon EC2 eliminates the need to invest in hardware upfront.
+- [ ] Amazon EC2 can launch as many or as few virtual servers as needed.
+- [ ] Amazon EC2 offers scalable computing.
+
+## What are the benefits of using DynamoDB? (Choose TWO)
+
+- [x] Automatically scales to meet required throughput capacity.
+- [ ] Provides resizable instances to match the current demand.
+- [ ] Supports both relational and non-relational data models.
+- [x] Offers extremely low (single-digit millisecond) latency.
+- [ ] Supports the most popular NoSQL database engines such as CouchDB and MongoDB.
+
+### As part of the AWS Migration Acceleration Program (MAP), what does AWS provide to accelerate Enterprise adoption of AWS? (Choose TWO)
+
+- [x] AWS Partners.
+- [ ] AWS Artifact.
+- [x] AWS Professional Services.
+- [ ] Amazon Athena.
+- [ ] Amazon PinPoint.
+
+### Which AWS Group assists customers in achieving their desired business outcomes?
+#?
+- [ ] AWS Security Team.
+- [x] AWS Professional Services. 
+- [ ] AWS Trusted Advisor.
+- [ ] AWS Concierge Support Team.
+
+### An AWS customer has used one Amazon Linux instance for 2 hours, 5 minutes and 9 seconds, and one CentOS instance for 4 hours, 23 minutes and 7 seconds. How much time will the customer be billed for?
+# EC2 billing by selected OS
+- [ ] 3 hours for the Linux instance and 5 hours for the CentOS instance.
+- [ ] 2 hours, 5 minutes and 9 seconds for the Linux instance and 4 hours, 23 minutes and 7 seconds for the CentOS instance.
+- [x] 2 hours, 5 minutes and 9 seconds for the Linux instance and 5 hours for the CentOS instance.
+- [ ] 3 hours for the Linux instance and 4 hours, 23 minutes and 7 seconds for the CentOS instance.
+
+## Which of the following approaches will help you eliminate human error and automate the process of creating and updating your AWS environment?
+
+- [ ] Use Software test automation tools.
+- [ ] Use AWS CodeDeploy to build and automate your AWS environment.
+- [x] Use code to provision and operate your AWS infrastructure.
+- [ ] Migrate all of your applications to a dedicated host.
+
+### Which of the following factors should be considered when determining the region in which AWS Resources will be deployed? (Choose TWO)
+
+- [ ] The AWS Region's security level.
+- [x] Data sovereignty.
+- [x] Cost.
+- [ ] The planned number of VPCs.
+- [ ] Geographic proximity to the company's location.
+
+### Which of the below options is true of Amazon Cloud Directory?
+
+- [x] Amazon Cloud Directory allows the organization of hierarchies of data across multiple dimensions.
+- [ ] Amazon Cloud Directory enables the analysis of video and data streams in real time.
+- [ ] Amazon Cloud Directory allows users to access AWS with their existing Active Directory credentials.
+- [ ] Amazon Cloud Directory allows for registration and management of domain names.
+
+### Which of the following AWS offerings are serverless services? (Choose TWO)
+
+- [ ] Amazon EC2.
+- [x] AWS Lambda.
+- [x] Amazon DynamoDB.
+- [ ] Amazon EMR.
+- [ ] Amazon RDS.
+
+### A company wants to grant a new employee long-term access to manage Amazon DynamoDB databases. Which of the following is a recommended best-practice when granting these permissions?
+
+- [ ] Create an IAM role and attach a policy with Amazon DynamoDB access permissions.
+- [ ] Create an IAM role and attach a policy with Administrator access permissions.
+- [x] Create an IAM user and attach a policy with Amazon DynamoDB access permissions.
+- [ ] Create an IAM user and attach a policy with Administrator access permissions.
+
+
+## Which of the following will help AWS customers save on costs when migrating their workloads to AWS?
+
+- [ ] Use servers instead of managed services.
+- [x] Use existing third-party software licenses on AWS.
+- [ ] Migrate production workloads to AWS edge locations instead of AWS Regions.
+- [ ] Use AWS Outposts to run all workloads in a cost-optimized environment.
+
+### Which of the following can be used to enable the Virtual Multi-Factor Authentication? (Choose TWO)
+
+- [ ] Amazon Connect.
+- [x] AWS CLI.
+- [x] AWS Identity and Access Management (IAM).
+- [ ] Amazon SNS.
+- [ ] Amazon Virtual Private Cloud.
+
+### Which of the following are true regarding the languages that are supported on AWS Lambda? (Choose TWO)
+
+- [ ] Lambda only supports Python and Node.js, but third party plugins are available to convert code in other languages to these formats.
+- [x] Lambda natively supports a number of programming languages such as Node.js, Python, and Java.
+- [ ] Lambda is AWS' proprietary programming language for microservices.
+- [ ] Lambda doesn't support programming languages; it is a serverless compute service.
+- [x] Lambda can support any programming language using an API.
+
+### What are some key benefits of using AWS CloudFormation? (Choose TWO)
+
+- [ ] It helps AWS customers deploy their applications without worrying about the underlying infrastructure.
+- [ ] It applies advanced IAM security features automatically.
+- [x] It automates the provisioning and updating of your infrastructure in a safe and controlled manner.
+- [x] It allows you to model your entire infrastructure in just a text file.
+- [ ] It compiles and builds application code in a timely manner.
+
+### A company is hosting business critical workloads in an AWS Region. To protect against data loss and ensure business continuity, a mirror image of the current AWS environment should be created in another AWS Region. Company policy requires that the standby environment must be available in minutes in case of an outage in the primary AWS Region. Which AWS service can be used to meet these requirements?
+
+- [x] CloudEndure Disaster Recovery.
+- [ ] CloudEndure Migration.
+- [ ] AWS Backup.
+- [ ] AWS Glue.
+
+## You want to create a backup of your data in another geographical location. Where should you create this backup?
+
+- [ ] In another Edge location.
+- [x] In another Region.
+- [ ] In another VPC.
+- [ ] In another Availability Zone.
+
+### Which of the following is a feature of Amazon RDS that performs automatic failover when the primary database fails to respond?
+
+- [ ] RDS Single-AZ.
+- [x] RDS Write Replica.
+- [ ] RDS Snapshots.
+- [ ] RDS Multi-AZ.
+
+### Which of the following strategies helps protect your AWS root account?
+
+- [x] Delete root user access keys if you do not need them.
+- [ ] Apply MFA for the root account and use it for all of your work.
+- [ ] Access the root account only from your personal Mobile Phone.
+- [ ] Only share your AWS account password or access keys with trusted persons.
+
+## Which of the following is an available option when purchasing Amazon EC2 instances?
+
+- [ ] The ability to bid to get the lowest possible prices.
+- [ ] The ability to register EC2 instances to get volume discounts on every hour the instances are running.
+- [ ] The ability to buy Dedicated Instances for up to 90% discount.
+- [x] The ability to pay upfront to get lower hourly costs.
+
+### Which of the following services provide real-time auditing for compliance and vulnerabilities? (Choose TWO)
+
+- [x] AWS Config.
+- [ ] Amazon Redshift.
+- [ ] Amazon MQ.
+- [x] AWS Trusted Advisor.
+- [ ] Amazon Cognito.
+
+## Which AWS service helps developers compile and test their code?
+
+- [ ] AWS CodeDeploy.
+- [ ] AWS CodeCommit.
+- [ ] CloudEndure.
+- [x] AWS CodeBuild.
+
+### Which of the following compute resources are serverless? (Choose TWO)
+
+- [ ] Amazon EC2.
+- [x] AWS Fargate.
+- [x] AWS Lambda.
+- [ ] Amazon ECS.
+- [ ] Amazon EMR.
+
+## An organization needs to build a financial application that requires support for ACID transactions. Which AWS database service is most appropriate in this case?
+
+- [ ] RedShift.
+- [x] RDS.
+- [ ] CloudHSM.
+- [ ] DMS.
+
+### What can you use to assign permissions directly to an IAM user?
+
+- [ ] IAM Identity.
+- [ ] IAM Group.
+- [ ] IAM Role.
+- [x] IAM Policy.
+
+### Which of the following services enables you to easily generate and use your own encryption keys in the AWS Cloud?
+
+- [ ] AWS Shield.
+- [ ] AWS Certificate Manager.
+- [x] AWS CloudHSM.
+- [ ] AWS WAF.
+
+## For some services, AWS automatically replicates data across multiple Availability Zones to provide fault tolerance in the event of a server failure or Availability Zone outage. Select TWO services that automatically replicate data across Availability Zones.
+
+- [ ] Instance Store.
+- [x] S3.
+- [x] DynamoDB.
+- [ ] Amazon Route 53.
+- [ ] AWS VPN.
+
+## Which of the following security resources are available to any user for free? (Choose TWO)
+
+- [x] AWS Bulletins.
+- [ ] AWS TAM.
+- [ ] AWS Support APl.
+- [x] AWS Security Blog.
+- [ ] AWS Classroom Training.
+
+### Which of the following is NOT a benefit of using AWS Lambda?
+
+- [ ] AWS Lambda runs code without provisioning or managing servers.
+- [x] AWS Lambda provides resizable compute capacity in the cloud.
+- [ ] There is no charge when your AWS Lambda code is not running.
+- [ ] AWS Lambda can be called directly from any mobile app. #explain this?
+
+### How does AWS help customers achieve compliance in the cloud?
+
+- [ ] It's not possible to meet regulatory compliance requirements in the Cloud.
+- [ ] AWS applies the most common Cloud security standards, and is responsible for complying with customers' applicable laws and regulations.
+- [ ] AWS has many common assurance certifications such as ISO 9001 and HIPAA.
+- [x] Many AWS services are assessed regularly to comply with local laws and regulations.
+
+## What are the benefits of the AWS Organizations service? (Choose TWO)
+
+- [x] Control access to AWS services.
+- [ ] Help organizations design and maintain an accelerated path to successful cloud adoption.
+- [ ] Manage your organization's payment methods.
+- [ ] Help organization achieve their desired business outcomes with AWS.
+- [x] Consolidate billing across multiple AWS accounts.
+
+### Amazon EC2 instances are conceptually very similar to traditional servers. However, using Amazon EC2 server instances in the same manner as traditional hardware server instances is only a starting point. What are the main benefits of using the AWS EC2 instances instead of traditional servers? (Choose TWO)
+
+- [x] Improves Fault-Tolerance.
+- [ ] Provides your business with a seamless remote accessibility.
+- [ ] Prevents unauthorized users from getting into your network.
+- [ ] Provides automatic data backups.
+- [x] Can be scaled manually in a shorter period of time.
+
+## Which statement is true regarding AWS pricing? (Choose TWO)
+
+- [x] With the AWS pay-as-you-go pricing model, you don't have to pay any upfront fee.
+- [ ] You have no responsibility for third-party software license costs.
+- [x] You only pay for the individual services that you need with no long-term contracts.
+- [ ] For some services, you have to pay a startup fee in order to get the service running.
+- [ ] There are no reservations on AWS, you only pay for what you use.
+
+### Which AWS service provides the EASIEST way to set up and manage a secure, well-architected, multi-account AWS environment?
+
+- [x] AWS Control Tower.
+- [ ] Amazon Macie.
+- [ ] AWS Systems Manager Patch Manager.
+- [ ] AWS Systems Manager Patch Manager AWS Security Hub.
+
+### What is the recommended storage option when hosting an often-changing database on an Amazon EC2 instance?
+
+- [x] Amazon EBS.
+- [ ] Amazon RDS.
+- [ ] You can't run a database inside an Amazon EC2 instance.
+- [ ] Amazon DynamoDB.
+
+###? What are the main differences between an IAM user and an IAM role in AWS? (Choose TWO)
+
+- [x] An IAM user is uniquely associated with only one person, however a role is intended to be assumable by anyone who needs it.
+- [x] An IAM user has permanent credentials associated with it, however a role has temporary credentials associated with it.
+- [ ] IAM users are more cost effective than IAM roles.
+- [ ] Arole is uniquely associated with only one person, however an IAM user is intended to be assumable by anyone who needs it.
+- [ ] An IAM user has temporary credentials associated withit, however a role has permanent credentials associated with it.
+
+## Which of the following requires an access key ID and a secret access key to get long-lived programmatic access to AWS resources? (Choose TWO)
+
+- [ ] IAM group.
+- [x] IAM user.
+- [ ] IAM role.
+- [x] AWS account root user.
+- [ ] TAM.
+
+### What are the benefits of the AWS Marketplace service? (Choose TWO)
+
+- [x] Protects customers by performing periodic security checks on listed products.
+- [ ] Per-second billing.
+- [ ] Provides cheaper options for purchasing Amazon EC2 on-demand instances.
+- [x] Provides flexible pricing options that suit most customer needs.
+- [ ] Provides software solutions that run on AWS or any other Cloud vendor.
+
+### The elasticity of the AWS Cloud enables customers to save costs when compared to traditional hosting providers. What can AWS customers do to benefit from the elasticity of the AWS Cloud? (Choose TWO)
+
+- [ ] Deploy your resources across multiple Availability Zones.
+- [x] Use Amazon EC2 Auto Scaling.
+- [ ] Deploy your resources in another region.
+- [ ] Use Elastic Load Balancing.
+- [x] Use Serverless Computing whenever possible.
+
+##? Which AWS service delivers data, videos, applications, and APIs to users globally with low latency and high transfer speeds?
+
+- [ ] Amazon Route 53.
+- [x] Amazon Connect.
+- [ ] Amazon CloudFront.
+- [ ] Amazon EC2.
+
+### Which of the following steps should be taken by a customer when conducting penetration testing on AWS?
+
+- [ ] Conduct penetration testing using Amazon Inspector, and then notify AWS support.
+- [x] Request and wait for approval from the customer's internal security team, and then conduct testing.
+- [ ] Notify AWS support, and then conduct testing immediately.
+- [ ] Request and wait for approval from AWS support, and then conduct testing.
+
+### Which AWS service allows companies to connect an Amazon VPC to an on-premises data center?
+
+- [x] AWS VPN.
+- [ ] Amazon Redshift.
+- [ ] API Gateway.
+- [ ] Amazon Direct Connect.

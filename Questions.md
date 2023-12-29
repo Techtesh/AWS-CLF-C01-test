@@ -4502,7 +4502,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] VPC Flow Logs.
 - [y] Amazon CloudWatch.
 - [ ] AWSConfig.
---------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4591,7 +4590,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which mechanism allows developers to access AWS sendees from application code?
 
-- [ ] AWS Software Development Kit.
+- [y] AWS Software Development Kit.
 - [ ] AWS Management Console.
 - [ ] AWS CodePipeline.
 - [ ] AWS Config.
@@ -4602,7 +4601,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Shared responsibility security model.
 - [ ] Single tenancy.
-- [ ] Elastic computing.
+- [y] Elastic computing.
 - [ ] Encryption.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4610,7 +4609,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following is a benefit of using the AWS Cloud?
 
 - [ ] Permissive security removes the administrative burden.
-- [ ] Ability to focus on revenue-generating activities.
+- [y] Ability to focus on revenue-generating activities.
 - [ ] Control over cloud network hardware.
 - [ ] Choice of specific cloud hardware vendors.
 
@@ -4618,10 +4617,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which of the following are categories of AWS Trusted Advisor? (Select TWO)
 
-- [ ] Fault Tolerance.
-- [ ] Instance Usage.
+- [y] Fault Tolerance.
+- [ ] Instance Usage. #m?
 - [ ] Infrastructure.
-- [ ] Performance.
+- [y] Performance.
 - [ ] Storage Capacity.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4629,7 +4628,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### What is Amazon CloudWatch?
 
 - [ ] A code repository with customizable build and team commit features.
-- [ ] A metrics repository with customizable notification thresholds and channels.
+- [y] A metrics repository with customizable notification thresholds and channels.
 - [ ] A security configuration repository with threat analytics.
 - [ ] A rule repository of a web application firewall with automated vulnerability prevention features.
 
@@ -4638,9 +4637,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Under the AWS shared responsibility model, which of the following activities are the customer's responsibility? (Select TWO)
 
 - [ ] Patching operating system components for Amazon Relational Database Server (Amazon RDS).
-- [ ] Encrypting data on the client-side.
+- [y] Encrypting data on the client-side.
 - [ ] Training the data center staff.
-- [ ] Configuring Network Access Control Lists (ACL).
+- [y] Configuring Network Access Control Lists (ACL).
 - [ ] Maintaining environmental controls within a data center.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4648,7 +4647,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Under the shared responsibility model, which of the following is a shared control between a customer and AWS?
 
 - [ ] Physical controls.
-- [ ] Patch management.
+- [y] Patch management.
 - [ ] Zone security.
 - [ ] Data center auditing.
 
@@ -4656,7 +4655,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which AWS service is used to pay AWS bills, and monitor usage and budget costs?
 
-- [ ] AWS Billing and Cost Management.
+- [y] AWS Billing and Cost Management.
 - [ ] Consolidated billing.
 - [ ] Amazon CloudWatch.
 - [ ] Amazon GuickStght.
@@ -4665,17 +4664,17 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### How do customers benefit from Amazon's massive economies of scale?
 
-- [ ] Periodic price reductions as the result of Amazon's operational efficiencies.
-- [ ] New Amazon EC2 instance types providing the latest hardware.
-- [ ] The ability to scale up and down when needed.
-- [ ] Increased reliability in the underlying hardware of Amazon EC2 instances.
+- [ ] Periodic price reductions as the result of Amazon's operational efficiencies. #m?
+- [ ] New Amazon EC2 instance types providing the latest hardware. #?
+- [y]] The ability to scale up and down when needed.
+- [ ] Increased reliability in the underlying hardware of Amazon EC2 instances. 
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS feature allows a company to take advantage of usage tiers for services across multiple member accounts?
 
 - [ ] Service control policies (SCPs).
-- [ ] Consolidated billing.
+- [y] Consolidated billing.
 - [ ] All Upfront Reserved Instances.
 - [ ] AWS Cost Explorer.
 
@@ -4685,18 +4684,19 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Amazon EBS.
 - [ ] Amazon Connect.
-- [ ] AWS Storage Gateway AWS CLOUD PRACTITIONER DUMPS.
+- [y] AWS Storage Gateway.
 - [ ] Amazon CloudFront.
-- [ ] AWS Direct Connect.
+- [y] AWS Direct Connect.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following services will automatically scale with an expected increase in web traffic?
 
 - [ ] AWS CodePipeline.
-- [ ] Elastic Load Balancing.
+- [y] Elastic Load Balancing.
 - [ ] Amazon EBS.
 - [ ] AWS Direct Connect.
+--------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4705,14 +4705,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Amazon Redshift.
 - [ ] Amazon Elastic File System (Amazon EFS).
 - [ ] Amazon Elastic Container Service (Amazon ECS).
-- [ ] Amazon S3.
+- [y] Amazon S3.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS feature should a customer leverage to achieve high availability of an application?
 
 - [ ] AWS Direct Connect.
-- [ ] Availability Zones.
+- [y] Availability Zones.
 - [ ] Data centers.
 - [ ] Amazon Virtual Private Cloud (Amazon VPC).
 
@@ -4720,18 +4720,18 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which AWS service or feature can enhance network security by blocking requests from a particular network for a web application on AWS? (Select TWO)
 
-- [ ] AWS WAF.
+- [y] AWS WAF. #VPC
 - [ ] AWS Trusted Advisor.
 - [ ] AWS Direct Connect.
 - [ ] AWS Organizations.
-- [ ] Network ACLs.
+- [y] Network ACLs. #subet
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following is a cloud architectural design principle?
 
 - [ ] Scale up not out.
-- [ ] Loosely couple components.
+- [y] Loosely couple components.
 - [ ] Build monolithic systems.
 - [ ] Use commercial database software.
 
@@ -4740,7 +4740,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which service enables risk auditing by continuously monitoring and logging account activity, including user actions in the AWS Management Console and AWS SDKs?
 
 - [ ] Amazon CloudWatch.
-- [ ] AWS CloudTrail.
+- [y] AWS CloudTrail.
 - [ ] AWS Config.
 - [ ] AWS Health.
 

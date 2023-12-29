@@ -724,3 +724,26 @@ Correct Answer: A
 - [ ] Amazon Redshift.
 - [ ] API Gateway.
 - [ ] Amazon Direct Connect.
+
+
+### Which of the following are pillars of the AWS Well-Architected Framework? (Select TWO)
+
+- [ ] Multiple Availability Zones.
+- [ ] Performance efficiency.
+- [x] Security.
+- [x] Encryption usage.
+- [ ] High availability.
+
+#? Which AWS feature will reduce the customer's total cost of ownership (TCO)?
+
+- [x] Shared responsibility security model.
+- [ ] Single tenancy.
+- [y] Elastic computing.
+- [ ] Encryption.
+
+### Which AWS service is used to pay AWS bills, and monitor usage and budget costs?
+
+- [ ] AWS Billing and Cost Management.
+- [x] Consolidated billing.
+- [ ] Amazon CloudWatch.
+- [ ] Amazon GuickStght.

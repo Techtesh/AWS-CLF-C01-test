@@ -4601,7 +4601,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [x] Shared responsibility security model.
 - [ ] Single tenancy.
-- [ ] Elastic computing.
+- [y] Elastic computing.
 - [ ] Encryption.
 
 **[⬆ Back to Top](#table-of-contents)**

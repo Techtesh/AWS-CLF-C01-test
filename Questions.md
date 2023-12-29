@@ -4696,7 +4696,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [y] Elastic Load Balancing.
 - [ ] Amazon EBS.
 - [ ] AWS Direct Connect.
---------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4748,7 +4747,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Where can AWS compliance and certification reports be downloaded?
 
-- [ ] AWS Artifact.
+- [y] AWS Artifact.
 - [ ] AWS Concierge.
 - [ ] AWS Certificate Manager.
 - [ ] AWS Trusted Advisor.
@@ -4757,9 +4756,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### The financial benefits of using AWS are: (Select TWO)
 
-- [ ] Reduced Total Cost of Ownership (TCO).
+- [y] Reduced Total Cost of Ownership (TCO).
 - [ ] Increased capital expenditure (capex).
-- [ ] Reduced operational expenditure ( opex ).
+- [y] Reduced operational expenditure ( opex ).
 - [ ] Deferred payment plans for startups.
 - [ ] Business credit lines for stratups.
 
@@ -4767,7 +4766,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which AWS service can serve a static website?
 
-- [ ] Amazon S3.
+- [y] Amazon S3.
 - [ ] Amazon Route 53.
 - [ ] Amazon QuickSight.
 - [ ] AWS X-Ray.
@@ -4776,28 +4775,28 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What are the benefits of using the AWS Cloud for companies with customers in many countries around the world (Select TWO)
 
-- [ ] Companies can deploy applications in multiple AWS Regions to reduce latency.
+- [ ] Companies can deploy applications in multiple AWS Regions to reduce latency. #m?
 - [ ] Amazon Translate automatically translates third-party website interfaces into multiple languages.
-- [ ] Amazon CloudFront has multiple edge locations around the world to reduce latency.
+- [y] Amazon CloudFront has multiple edge locations around the world to reduce latency.
 - [ ] Amazon Comprehend allows users to build applications that can respond to user requests in many languages.
-- [ ] Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world which reduces latency.
+- [y] Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world which reduces latency.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following are main components of the AWS global infrastructure? (Select TWO)
 
 - [ ] Resource groups.
-- [ ] Availability Zones.
+- [y] Availability Zones.
 - [ ] Security groups.
-- [ ] Regions.
+- [y] Regions.
 - [ ] Amazon Machine Images (AMIS).
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**5
 
 ### What is the AWS customer responsible for according to the AWS shared responsibility model?
 
 - [ ] Physical access controls.
-- [ ] Data encryption.
+- [y] Data encryption.
 - [ ] Secure disposal of storage devices.
 - [ ] Environmental risk management.
 
@@ -4807,7 +4806,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use AWS Budgets on each account to pay only to budget.
 - [ ] Contact AWS Support for a monthly bill.
-- [ ] Create an AWS Organization from the payer account and invite the other accounts to join.
+- [y] Create an AWS Organization from the payer account and invite the other accounts to join.
 - [ ] Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4817,7 +4816,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Project management.
 - [ ] Antivirus software licensing.
-- [ ] Data center security.
+- [y] Data center security. #wht?
 - [ ] Software development.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4826,25 +4825,25 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] They require the customer to monitor and replace failing instances.
 - [ ] They have better performance than customer-managed services.
-- [ ] They simplify patching and updating underlying OSs.
-- [ ] They do not require the customer to optimize instance type or size selections.
+- [y] They simplify patching and updating underlying OSs.
+- [ ] They do not require the customer to optimize instance type or size selections. #m?
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which services can be used across hybrid AWS Cloud architectures? (Select TWO)
 
-- [ ] Amazon Route 53.
-- [ ] Virtual Private Gateway.
+- [y] Amazon Route 53. #m?
+- [y] Virtual Private Gateway.
 - [ ] Classic Load Balancer.
 - [ ] Auto Scaling.
-- [ ] Amazon CloudWatch default metrics.
+- [ ] Amazon CloudWatch default metrics. #m?
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which statement best describes Elastic Load Balancing?
 
 - [ ] It translates a domain name into an IP address using DNC.
-- [ ] It distributes incoming application traffic across one or more Amazon EC2 instances.
+- [y] It distributes incoming application traffic across one or more Amazon EC2 instances.
 - [ ] It collects metrics on connected Amazon EC2 instances.
 - [ ] It automatically adjusts the number of Amazon EC2 instances to support incoming traffic.
 
@@ -4854,14 +4853,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Amazon Redshift.
 - [ ] Amazon RDS.
-- [ ] Amazon DynamoDB.
+- [y] Amazon DynamoDB.
 - [ ] Amazon S3.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS service would you use to obtain compliance reports and certificates?
 
-- [ ] AWS Artifact.
+- [y] AWS Artifact.
 - [ ] AWS Lambda.
 - [ ] Amazon Inspector.
 - [ ] AWS Certificate Manager.
@@ -4870,26 +4869,26 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which AWS services are defined as global instead of regional? (Select TWO)
 
-- [ ] Amazon Route 53.
+- [y] Amazon Route 53.
 - [ ] Amazon EC2.
 - [ ] Amazon S3.
-- [ ] Amazon CloudFront.
+- [y] Amazon CloudFront.
 - [ ] Amazon DynamoDB.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### How would an AWS customer easily apply common access controls to a large set of users?
 
-- [ ] Apply an IAM policy to an IAM group.
+- [ ] Apply an IAM policy to an IAM group. #m?
 - [ ] Apply an IAM policy to an IAM role.
 - [ ] Apply the same IAM policy to all IAM users with access to the same workload.
-- [ ] Apply an IAM policy to an Amazon Cognito user pool.
+- [y] Apply an IAM policy to an Amazon Cognito user pool.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following is an important architectural design principle when designing cloud applications?
 
-- [ ] Use multiple Availability Zones.
+- [y] Use multiple Availability Zones.
 - [ ] Use tightly coupled components.
 - [ ] Use open source software.
 - [ ] Provision extra capacity.
@@ -4899,7 +4898,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which service allows a company with multiple AWS accounts to combine its usage to obtain volume discounts?
 
 - [ ] AWS Server Migration Service.
-- [ ] AWS Organizations.
+- [y] AWS Organizations.
 - [ ] AWS Budgets.
 - [ ] AWS Trusted Advisor.
 
@@ -4908,10 +4907,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following can an AWS customer use to launch a new Amazon Relational Database Service (Amazon RDS) cluster? (Select TWO)
 
 - [ ] AWS Concierge.
-- [ ] AWS CloudFormation.
+- [y] AWS CloudFormation.
 - [ ] Amazon Simple Storage Service (Amazon S3).
-- [ ] Amazon EC2 Auto Scaling.
-- [ ] AWS Management Console.
+- [ ] Amazon EC2 Auto Scaling. #m?
+- [y] AWS Management Console.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4919,7 +4918,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] One-year, No Upfront, Standard RI pricing.
 - [ ] One-year, All Upfront, Convertible RI pricing.
-- [ ] Three-year, All Upfront, Standard RI pricing.
+- [y] Three-year, All Upfront, Standard RI pricing.
 - [ ] Three-year, No Upfront, Convertible RI pricing.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4927,10 +4926,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following are features of Amazon CloudWatch Logs? (Select TWO)
 
 - [ ] Summaries by Amazon Simple Notification Service (Amazon SNS).
-- [ ] Free Amazon Elasticsearch Service analytics.
-- [ ] Provided at no charge.
-- [ ] Real-time monitoring.
-- [ ] Adjustable retention.
+- [ ] Free Amazon Elasticsearch Service analytics. #lim
+- [ ] Provided at no charge. #10 
+- [y] Real-time monitoring.
+- [y] Adjustable retention.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4938,7 +4937,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Amazon SWF.
 - [ ] Amazon EC2.
-- [ ] AWS Lambda.
+- [y] AWS Lambda.
 - [ ] Amazon Aurora.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4946,7 +4945,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company wants to reduce the physical compute footprint that developers use to run code. Which service would meet that need by enabling serverless architectures?
 
 - [ ] Amazon Elastic Compute Cloud (Amazon EC2).
-- [ ] AWS Lambda.
+- [y] AWS Lambda.
 - [ ] Amazon DynamoDB.
 - [ ] AWS CodeCommit.
 
@@ -4956,7 +4955,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Patching underlying infrastructure
 - [ ] Physical security
-- [ ] Patching Amazon EC2 instances
+- [y] Patching Amazon EC2 instances
 - [ ] Patching network infrastructure
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4965,7 +4964,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] It is solely the responsibility of the customer.
 - [ ] It is solely the responsibility of AWS.
-- [ ] It is shared between AWS and the customer.
+- [y] It is shared between AWS and the customer.
 - [ ] It is not part of the AWS shared responsibility model.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4973,7 +4972,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?
 
 - [ ] Amazon GuardDuty.
-- [ ] Amazon Macie.
+- [y] Amazon Macie.
 - [ ] Amazon Inspector.
 - [ ] AWS Shield.
 
@@ -4982,21 +4981,22 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following BEST describe the AWS pricing model? (Select TWO)
 
 - [ ] Fixed-term.
-- [ ] Pay-as-you-go.
+- [y] Pay-as-you-go.
 - [ ] Colocation.
 - [ ] Planned.
-- [ ] Variable cost.
+- [y] Variable cost.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Under the shared responsibility model, which of the following tasks are the responsibility of the AWS customer? (Select TWO)
 
-- [ ] Ensuring that application data is encrypted at rest.
+- [y] Ensuring that application data is encrypted at rest.
 - [ ] Ensuring that AWS NTP servers are set to the correct time.
-- [ ] Ensuring that users have received security training in the use of AWS services.
+- [y] Ensuring that users have received security training in the use of AWS services.
 - [ ] Ensuring that access to data centers is restricted.
 - [ ] Ensuring that hardware is disposed of properly.
 
+--------Till Here-------
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A customer is using multiple AWS accounts with separate billing. How can the customer take advantage of volume discounts with minimal impact to the AWS resources?

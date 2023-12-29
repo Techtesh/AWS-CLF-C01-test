@@ -12,6 +12,7 @@ AWS Cloud9
 Amazon Chime
 Amazon Polly
 Amazon Neptune
+Amazon SWF.
 AWS Application Discovery Service.
 CloudEndure Disaster Recovery
 CloudEndure Migration.
@@ -747,3 +748,42 @@ Correct Answer: A
 - [x] Consolidated billing.
 - [ ] Amazon CloudWatch.
 - [ ] Amazon GuickStght.
+
+## Which AWS service or feature can enhance network security by blocking requests from a particular network for a web application on AWS? (Select TWO)
+
+- [x] AWS WAF.
+- [ ] AWS Trusted Advisor.
+- [x] AWS Direct Connect.
+- [ ] AWS Organizations.
+- [ ] Network ACLs. #my yes
+
+## The financial benefits of using AWS are: (Select TWO)
+
+- [x] Reduced Total Cost of Ownership (TCO).
+- [ ] Increased capital expenditure (capex).
+- [ ] Reduced operational expenditure ( opex ).
+- [x] Deferred payment plans for startups.
+- [ ] Business credit lines for stratups.
+
+## Which services can be used across hybrid AWS Cloud architectures? (Select TWO)
+
+- [x] Amazon Route 53.
+- [x] Virtual Private Gateway.
+- [ ] Classic Load Balancer.
+- [ ] Auto Scaling.
+- [ ] Amazon CloudWatch default metrics.
+
+### How would an AWS customer easily apply common access controls to a large set of users?
+
+- [x] Apply an IAM policy to an IAM group.
+- [ ] Apply an IAM policy to an IAM role.
+- [ ] Apply the same IAM policy to all IAM users with access to the same workload.
+- [ ] Apply an IAM policy to an Amazon Cognito user pool.
+
+
+### Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?
+
+- [x] Amazon GuardDuty.
+- [ ] Amazon Macie.
+- [ ] Amazon Inspector.
+- [ ] AWS Shield.

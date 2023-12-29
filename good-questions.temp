@@ -850,3 +850,18 @@ Correct Answer: A
 - [x] Security Groups.
 - [x] Subnets.
 - [ ] Elastic Load Balancing.
+
+### Which of the following are advantages of AWS consolidated billing? (Select TWO)
+
+- [x] The ability to receive one bill for multiple accounts.
+- [ ] Service limits increasing by default in all accounts.
+- [ ] A fixed discount on the monthly bill.
+- [x] Potential volume discounts, as usage in all accounts is combined.
+- [ ] The automatic extension of the master account's AWS support plan to all accounts.
+
+## What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several specialty practice areas?
+
+- [ ] AWS Enterprise Support.
+- [ ] AWS Solutions Architects.
+- [y] AWS Professional Services.
+- [ ] AWS Account Managers.

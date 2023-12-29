@@ -5401,7 +5401,6 @@ GG
 - [y] Security Groups.
 - [y] Subnets.
 - [ ] Elastic Load Balancing.
---------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5494,6 +5493,7 @@ GG
 - [ ] AWS Trusted Advisor.
 - [ ] Amazon CloudWatch.
 - [ ] Amazon Inspector.
+--------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 

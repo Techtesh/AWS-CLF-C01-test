@@ -787,3 +787,66 @@ Correct Answer: A
 - [ ] Amazon Macie.
 - [ ] Amazon Inspector.
 - [ ] AWS Shield.
+
+### Which AWS tools assist with estimating costs? (Select three)
+
+- [ ] Detailed billing report.
+- [x] Cost allocation tags.
+- [x] AWS Simple Monthly Calculator.
+- [x] AWS Total Cost of Ownership (TCO) Calculator.
+- [ ] Cost Estimator.
+
+### Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?
+
+- [x] Enterprise.
+- [ ] Business.
+- [ ] Developer.
+- [ ] Basic.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Access keys in AWS Identity and Access Management (IM1) are used to:
+
+- [ ] Log in to the AWS Management Console.
+- [x] Make programmatic calls to AWS from AWS APIs.
+- [ ] Log in to Amazon EC2 instances.
+- [ ] Authenticate to AWS CodeCommit repositories.
+
+### Which AWS services can be used to gather information about AWS account activity? (Select TWO)
+
+- [ ] Amazon CloudFront.
+- [ ] AWS Cloud9.
+- [x] AWS CloudTrail.
+- [ ] AWS CloudHSM.
+- [x] Amazon CloudWatch.
+
+### Which AWS services can host a Microsoft SQL Server database? (Select TWO)
+
+- [x] Amazon EC2.
+- [x] Amazon Relational Database Service (Amazon RDS).
+- [ ] Amazon Aurora.
+- [ ] Amazon Redshift.
+- [ ] Amazon S3.
+
+### Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?
+
+- [ ] AWS manages the data stored in Amazon RDS tables.
+- [ ] AWS manages the maintenance of the operating system.
+- [x] AWS automatically scales up instance types on demand.
+- [ ] AWS manages the database type.
+
+### Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Select TWO)
+
+- [ ] AWS Trusted Advisor.
+- [x] AWS Online Tech Talks.
+- [ ] AWS Blog.
+- [ ] AWS Forums.
+- [x] AWS Classroom Training.
+
+## Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO)
+
+- [ ] Amazon CloudFront distributions.
+- [ ] Amazon Route 53.
+- [x] Security Groups.
+- [x] Subnets.
+- [ ] Elastic Load Balancing.

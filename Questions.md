@@ -4996,14 +4996,13 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Ensuring that access to data centers is restricted.
 - [ ] Ensuring that hardware is disposed of properly.
 
---------Till Here-------
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A customer is using multiple AWS accounts with separate billing. How can the customer take advantage of volume discounts with minimal impact to the AWS resources?
 
 - [ ] Create one global AWS account and move all AWS resources to tha account.
 - [ ] Sign up for three years of Reserved Instance pricing up front.
-- [ ] Use the consolidated billing feature from AWS Organizations.
+- [y] Use the consolidated billing feature from AWS Organizations.
 - [ ] Sign up for the AWS Enterprise support plan to get volume discounts.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5012,7 +5011,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] A Partial Upfront Reserved Instances for a 1-year term.
 - [ ] All Upfront Reserved instances for a 1 year form.
-- [ ] All Upfront Reserved Instances for a 3 year term.
+- [y] All Upfront Reserved Instances for a 3 year term.
 - [ ] No Upfront Reserved Instances for a 3 year term.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5020,17 +5019,17 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which AWS services should be used for read/write of constantly changing data? (Select TWO)
 
 - [ ] Amazon Glacier.
-- [ ] Amazon RDS.
+- [y] Amazon RDS.
 - [ ] AWS Snowball.
-- [ ] Amazon Redshift.
-- [ ] Amazon EFS.
+- [ ] Amazon Redshift. #dl #m?
+- [y] Amazon EFS.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS service allows users to identify the changes made to a resource over time?
 
 - [ ] Amazon Inspector.
-- [ ] AWS Config.
+- [y] AWS Config.
 - [ ] AWS Service Catalog.
 - [ ] AWS IAM.
 
@@ -5039,7 +5038,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### According to best practices, how should an application be designed to run in the AWS Cloud?
 
 - [ ] Use tighly coupled components.
-- [ ] Use loosely coupled components.
+- [y] Use loosely coupled components.
 - [ ] Use infrequently coupled components.
 - [ ] Use frequently coupled components.
 
@@ -5047,17 +5046,17 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which benefits are included with the AWS Business Support plan? (Select TWO)
 
-- [ ] 24/7 assistance by way of live chat or a telephone call.
+- [y] 24/7 assistance by way of live chat or a telephone call.
 - [ ] Support from a dedicated AWS Technical Account Manager.
-- [ ] An unlimited number of cases and contacts.
+- [y] An unlimited number of cases and contacts.
 - [ ] 15-minute response time for production system interruption cases.
-- [ ] Annual operational reviews with AWS Solutions Architects.
+- [ ] Annual operational reviews with AWS Solutions Architects. #m?
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following is an AWS managed Domain Name System (DNS) web service?
 
-- [ ] Amazon Route 53.
+- [y] Amazon Route 53.
 - [ ] Amazon Neptune.
 - [ ] Amazon SageMaker.
 - [ ] Amazon Lightsail.
@@ -5066,7 +5065,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. When Amazon EC2 instance pricing option will meet these requirements?
 
-- [ ] Dedicated Hosts.
+- [y] Dedicated Hosts.
 - [ ] Dedicated Instances.
 - [ ] Spot Instances.
 - [ ] Reserved Instances.
@@ -5077,7 +5076,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Dedicated RIs.
 - [ ] Scheduled RIs.
-- [ ] Convertible RIs.
+- [y] Convertible RIs.
 - [ ] Standard RIs.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5086,17 +5085,17 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Amazon Machine Learning.
 - [ ] Amazon SQS.
-- [ ] Amazon ElastiCache.
+- [y] Amazon ElastiCache.
 - [ ] Amazon EC2 Instance Store.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### When should a company consider using Amazon EC2 Spot Instances? (Select TWO)
 
-- [ ] For non-production applications.
+- [y] For non-production applications.
 - [ ] For stateful workloads.
 - [ ] For applications that cannot have interruptions.
-- [ ] For fault-tolerant flexible applications.
+- [y] For fault-tolerant flexible applications.
 - [ ] For sensitive database applications.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5106,34 +5105,34 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Detailed billing report.
 - [ ] Cost allocation tags.
 - [ ] AWS Simple Monthly Calculator.
-- [ ] AWS Total Cost of Ownership (TCO) Calculator.
-- [ ] Cost Estimator.
+- [y] AWS Total Cost of Ownership (TCO) Calculator.
+- [y] Cost Estimator.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A company wants to focus on business activities instead of managing compute and capacity. Which AWS service can be used to automatically add or remove Amazon EC2 instances based on demand?
 
 - [ ] Elastic Load Balancer.
-- [ ] Amazon EC2 Auto Scaling.
+- [y] Amazon EC2 Auto Scaling.
 - [ ] Amazon Route 53.
 - [ ] Amazon CloudFront.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?
-
+GG
 - [ ] Enterprise.
-- [ ] Business.
+- [y] Business.
 - [ ] Developer.
 - [ ] Basic.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Access keys in AWS Identity and Access Management (IM1) are used to:
-
+GG
 - [ ] Log in to the AWS Management Console.
 - [ ] Make programmatic calls to AWS from AWS APIs.
-- [ ] Log in to Amazon EC2 instances.
+- [y] Log in to Amazon EC2 instances.
 - [ ] Authenticate to AWS CodeCommit repositories.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5143,7 +5142,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] AWS Glue.
 - [ ] AWS Data Pipeline.
 - [ ] Amazon CloudSearch.
-- [ ] Amazon Athena.
+- [y] Amazon Athena.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5151,7 +5150,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] It supplies an online IT ticketing platform for resource requests.
 - [ ] It supports automatic code validation services.
-- [ ] It provides the ability to programmatically provision existing resources.
+- [y] It provides the ability to programmatically provision existing resources.
 - [ ] It automates the resource request process from a company's IT vendor list.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5160,8 +5159,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Amazon CloudFront.
 - [ ] AWS Cloud9.
-- [ ] AWS CloudTrail.
-- [ ] AWS CloudHSM.
+- [y] AWS CloudTrail.
+- [y] AWS CloudHSM.
 - [ ] Amazon CloudWatch.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5169,10 +5168,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following are characteristics of Amazon S3? (Select TWO)
 
 - [ ] A global file system.
-- [ ] An object store.
+- [y] An object store.
 - [ ] A local file store.
 - [ ] A network file system.
-- [ ] A durable storage system.
+- [y] A durable storage system.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5180,7 +5179,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] AWS Budgets.
 - [ ] Cost Explorer.
-- [ ] AWS Total Cost of Ownership (TCO) Calculator.
+- [y] AWS Total Cost of Ownership (TCO) Calculator.
 - [ ] AWS Well-Architected Tool.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5188,15 +5187,15 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following services is in the category of AWS serverless platform?
 
 - [ ] Amazon EMR.
-- [ ] Elastic Load Balancing.
-- [ ] AWS Lambda.
+- [ ] Elastic Load Balancing.#m?
+- [y] AWS Lambda.#m?
 - [ ] AWS Mobile Hub.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### The use of what AWS feature or service allows companies to track and categorize spending on a detailed level?
 
-- [ ] Cost allocation tags.
+- [y] Cost allocation tags.
 - [ ] Consolidated billing.
 - [ ] AWS Budgets.
 - [ ] AWS Marketplace.
@@ -5206,7 +5205,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following inspects AWS environments to find opportunities that can save money for users and also improve system performance?
 
 - [ ] AWS Cost Explorer.
-- [ ] AWS Trusted Advisor.
+- [y] AWS Trusted Advisor.
 - [ ] Consolidated billing.
 - [ ] Detailed billing.
 
@@ -5216,7 +5215,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Cloud-native.
 - [ ] Partner network.
-- [ ] Hybrid architecture.
+- [y] Hybrid architecture.
 - [ ] Infrastructure as a service.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5226,14 +5225,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Load balancing.
 - [ ] Automatic failover.
 - [ ] Round robin.
-- [ ] Auto Scaling.
+- [y] Auto Scaling.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS service is a managed NoSQL database?
 
 - [ ] Amazon Redshift.
-- [ ] Amazon DynamoDB.
+- [y] Amazon DynamoDB.
 - [ ] Amazon Aurora.
 - [ ] Amazon RDS for ManaDB.
 
@@ -5242,7 +5241,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following is a correct relationship between regions, Availability Zones, and edge locations?
 
 - [ ] Data centers contain regions.
-- [ ] Regions contain Availability Zones.
+- [y] Regions contain Availability Zones.
 - [ ] Availability Zones contain edge locations.
 - [ ] Edge locations contain regions.
 
@@ -5250,7 +5249,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What approach to transcoding a large number of individual video files adheres to AWS architecture principles?
 
-- [ ] Using many instances in parallel.
+- [y] Using many instances in parallel.
 - [ ] Using a single large instance during off-peak hours.
 - [ ] Using dedicated hardware.
 - [ ] Using a large GPU instance type.
@@ -5259,18 +5258,18 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which AWS services can host a Microsoft SQL Server database? (Select TWO)
 
-- [ ] Amazon EC2.
-- [ ] Amazon Relational Database Service (Amazon RDS).
-- [ ] Amazon Aurora.
+- [ ] Amazon EC2. #m?
+- [y] Amazon Relational Database Service (Amazon RDS).
+- [y] Amazon Aurora.
 - [ ] Amazon Redshift.
 - [ ] Amazon S3.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS IAM feature allows developers to access AWS services through the AWS CLI?
-
+GG
 - [ ] API keys.
-- [ ] Access keys.
+- [y] Access keys.
 - [ ] User names/Passwords.
 - [ ] SSH keys.
 
@@ -5281,14 +5280,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Patching the infrastructure components.
 - [ ] Maintaining the underlying infrastructure components.
 - [ ] Maintaining physical and environmental controls.
-- [ ] Implementing controls to route application traffic.
+- [y] Implementing controls to route application traffic.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS support plan includes a dedicated Technical Account Manager?
 
 - [ ] Developer.
-- [ ] Enterprise.
+- [y] Enterprise.
 - [ ] Business.
 - [ ] Basic.
 
@@ -5297,25 +5296,25 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### What time-savings advantage is offered with the use of Amazon Rekognition?
 
 - [ ] Amazon Rekognition provides automatic watermarking of images.
-- [ ] Amazon Rekognition provides automatic detection of objects appearing in pictures.
+- [y] Amazon Rekognition provides automatic detection of objects appearing in pictures.
 - [ ] Amazon Recognition provides the ability to resize millions of images automatically.
 - [ ] Amazon Rekognition uses Amazon Mechanical Turk to allow humans to bid on object detection jobs.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?
-
+W?
 - [ ] Amazon EBS.
 - [ ] Amazon Redshift.
 - [ ] AWS CloudTrail.
-- [ ] AWS Lambda.
+- [y] AWS Lambda.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?
 
 - [ ] AWS manages the data stored in Amazon RDS tables.
-- [ ] AWS manages the maintenance of the operating system.
+- [y] AWS manages the maintenance of the operating system.
 - [ ] AWS automatically scales up instance types on demand.
 - [ ] AWS manages the database type.
 
@@ -5325,14 +5324,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Implementing elasticity enabling the application to scale up or scale down as demand changes.
 - [ ] Enabling several EC2 instances to run in parallel to achieve better performance.
-- [ ] Focusing on decoupling components by isolating them and ensuring individual components can function when other components.
+- [y] Focusing on decoupling components by isolating them and ensuring individual components can function when other components.
 - [ ] Doubling EC2 computing resources to increase system fault tolerance.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to achieve that outcome?
 
-- [ ] AWS Partner Network Technology Partners.
+- [y] AWS Partner Network Technology Partners.
 - [ ] AWS Marketplace.
 - [ ] AWS Partner Network Consulting Partners.
 - [ ] AWS Service Catalog.
@@ -5343,7 +5342,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Amazon Glacier.
 - [ ] AWS Storage Gateway.
-- [ ] Amazon S3.
+- [y] Amazon S3.
 - [ ] Amazon EBS.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5352,7 +5351,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Implement automation.
 - [ ] Design for agility.
-- [ ] Design for failure.
+- [y] Design for failure.
 - [ ] Implement elasticity.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5360,7 +5359,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which service should a customer use to consolidate and centrally manage multiple AWS accounts?
 
 - [ ] AWS IAM.
-- [ ] AWS Organizations.
+- [y] AWS Organizations.
 - [ ] AWS Schema Conversion Tool.
 - [ ] AWS Config.
 
@@ -5368,10 +5367,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### How can a company reduce its Total Cost of Ownership (TCO) using AWS?
 
-- [ ] By minimizing large capital expenditures.
+- [y] By minimizing large capital expenditures.
 - [ ] By having no responsibility for third-party license costs.
 - [ ] By having no operational expenditures.
-- [ ] By having AWS manage applications.
+- [ ] By having AWS manage applications. #m?
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5379,9 +5378,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] AWS Trusted Advisor.
 - [ ] AWS Online Tech Talks.
-- [ ] AWS Blog.
+- [y] AWS Blog.
 - [ ] AWS Forums.
-- [ ] AWS Classroom Training.
+- [y] AWS Classroom Training.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5389,19 +5388,20 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] AWS Secrets Manager.
 - [ ] AWS Certificate Manager.
-- [ ] AWS Multi-Factor Authentication (AWS MFA).
+- [y] AWS Multi-Factor Authentication (AWS MFA).
 - [ ] Security groups.
-- [ ] Password policies.
+- [y] Password policies.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO)
-
+GG
 - [ ] Amazon CloudFront distributions.
 - [ ] Amazon Route 53.
-- [ ] Security Groups.
-- [ ] Subnets.
+- [y] Security Groups.
+- [y] Subnets.
 - [ ] Elastic Load Balancing.
+--------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 

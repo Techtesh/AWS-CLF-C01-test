@@ -5408,27 +5408,27 @@ GG
 ### For which auditing process does AWS have sole responsibility?
 
 - [ ] AWS IAM policies.
-- [ ] Physical security.
+- [y] Physical security.
 - [ ] Amazon S3 bucket policies.
 - [ ] AWS CloudTrail Logs.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following are advantages of AWS consolidated billing? (Select TWO)
-
-- [ ] The ability to receive one bill for multiple accounts.
+GG
+- [y] The ability to receive one bill for multiple accounts.
 - [ ] Service limits increasing by default in all accounts.
 - [ ] A fixed discount on the monthly bill.
-- [ ] Potential volume discounts, as usage in all accounts is combined.
-- [ ] The automatic extension of the master account's AWS support plan to all accounts.
+- [ ] Potential volume discounts, as usage in all accounts is combined. #m?
+- [y] The automatic extension of the master account's AWS support plan to all accounts.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO)
 
-- [ ] Patching databases software.
+- [y] Patching databases software.
 - [ ] Testing application releases.
-- [ ] Backing up databases.
+- [y] Backing up databases.
 - [ ] Creating database schema.
 - [ ] Running penetration tests.
 
@@ -5438,7 +5438,7 @@ GG
 
 - [ ] Contact an AWS Account Manager to sign a new contract.
 - [ ] Move an Availability Zone to the new Region.
-- [ ] Begin deploying resources in the second Region.
+- [y] Begin deploying resources in the second Region.
 - [ ] Download the AWS Management Console for the new Region.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5447,7 +5447,7 @@ GG
 
 - [ ] They allow for the conversion from Application Load.
 - [ ] Balancers to Classic Load Balancers.
-- [ ] They are capable of handling constant changes in network traffic patterns.
+- [y] They are capable of handling constant changes in network traffic patterns.
 - [ ] They automatically adjust capacity. They are provided at no charge to users.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5455,7 +5455,7 @@ GG
 ### Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?
 
 - [ ] Enterprise.
-- [ ] Business.
+- [y] Business.
 - [ ] Developer
 - [ ] Basic
 
@@ -5463,7 +5463,7 @@ GG
 
 ### What is the lowest-cost, durable storage option for retaining database backups for immediate retrieval?
 
-- [ ] Amazon S3.
+- [y] Amazon S3.
 - [ ] Amazon Glacier.
 - [ ] Amazon EBS.
 - [ ] Amazon EC2 Instance Store.
@@ -5471,10 +5471,10 @@ GG
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several specialty practice areas?
-
+GG
 - [ ] AWS Enterprise Support.
 - [ ] AWS Solutions Architects.
-- [ ] AWS Professional Services.
+- [y] AWS Professional Services.
 - [ ] AWS Account Managers.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5483,14 +5483,14 @@ GG
 
 - [ ] Basic.
 - [ ] Developer.
-- [ ] Business.
+- [y] Business.
 - [ ] Enterprise.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### If a customer needs to audit the change management of AWS resources, which of the following AWS services should the customer use?
 
-- [ ] AWS Config.
+- [y] AWS Config.
 - [ ] AWS Trusted Advisor.
 - [ ] Amazon CloudWatch.
 - [ ] Amazon Inspector.
@@ -5500,8 +5500,8 @@ GG
 ### How does AWS Trusted Advisor provide guidance to users of the AWS Cloud? (Select TWO)
 
 - [ ] It identifies software vulnerabilities in applications running on AWS.
-- [ ] It provides a list of cost optimization recommendations based on current AWS usage.
-- [ ] It detects potential security vulnerabilities caused by permissions settings on account resources.
+- [y] It provides a list of cost optimization recommendations based on current AWS usage.
+- [y] It detects potential security vulnerabilities caused by permissions settings on account resources.
 - [ ] It automatically corrects potential security issues caused by permissions settings on account resources.
 - [ ] It provides proactive alerting whenever an Amazon EC2 instance has been compromised.
 

@@ -290,8 +290,6 @@ Correct Answer: A
 - [ ] Combine On-demand Capacity Reservations with Saving Plans.
 - [ ] Use a Multi-Region Active-Active architecture.
 
-**[⬆ Back to Top](#table-of-contents)**
-
 ## What is the primary storage service used by Amazon RDS database instances?
 
 - [ ] Amazon Glacier.
@@ -305,7 +303,6 @@ Correct Answer: A
 - [x] IaaS.
 - [ ] SaaS.
 - [ ] PaaS.
-
 
 ### What does Amazon Elastic Beanstalk provide?
 
@@ -412,7 +409,7 @@ Correct Answer: A
 
 **[⬆ Back to Top](#table-of-contents)**
 
-##? Which design principles relate to performance efficiency in AWS? (Choose TWO)
+#? Which design principles relate to performance efficiency in AWS? (Choose TWO)
 
 - [x] Build multi-region architectures to better serve global customers.
 - [ ] Apply security at all layers.
@@ -726,7 +723,6 @@ Correct Answer: A
 - [ ] API Gateway.
 - [ ] Amazon Direct Connect.
 
-
 ### Which of the following are pillars of the AWS Well-Architected Framework? (Select TWO)
 
 - [ ] Multiple Availability Zones.
@@ -780,7 +776,6 @@ Correct Answer: A
 - [ ] Apply the same IAM policy to all IAM users with access to the same workload.
 - [ ] Apply an IAM policy to an Amazon Cognito user pool.
 
-
 ### Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?
 
 - [x] Amazon GuardDuty.
@@ -802,8 +797,6 @@ Correct Answer: A
 - [ ] Business.
 - [ ] Developer.
 - [ ] Basic.
-
-**[⬆ Back to Top](#table-of-contents)**
 
 ### Access keys in AWS Identity and Access Management (IM1) are used to:
 
@@ -865,3 +858,33 @@ Correct Answer: A
 - [ ] AWS Solutions Architects.
 - [y] AWS Professional Services.
 - [ ] AWS Account Managers.
+
+## Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?
+
+- [ ] IAM group.
+- [x] IAM user.
+- [ ] IAM role.
+- [ ] IAM policy.
+
+### What credential components are required to gain programmatic access to an AWS account? (Select TWO)
+
+- [x] An access key ID.
+- [ ] A primary key.
+- [x] A secret access key.
+- [ ] A user ID.
+- [ ] A secondary key.
+
+### What credential components are required to gain programmatic access to an AWS account? (Select TWO)
+
+- [x] An access key ID.
+- [ ] A primary key.
+- [x] A secret access key.
+- [ ] A user ID.
+- [ ] A secondary key.
+
+## Which services are parts of the AWS serverless platform?
+
+- [ ] Amazon EC2, Amazon S3, Amazon Athena.
+- [ ] Amazon Kinesis, Amazon SQS, Amazon EMR.
+- [x] AWS Step Functions, Amazon DynamoDB, Amazon SNS.
+- [ ] Amazon Athena, Amazon Cognito, Amazon EC2.

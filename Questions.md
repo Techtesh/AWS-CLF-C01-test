@@ -5493,7 +5493,6 @@ GG
 - [ ] AWS Trusted Advisor.
 - [ ] Amazon CloudWatch.
 - [ ] Amazon Inspector.
---------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5512,14 +5511,14 @@ GG
 - [ ] AWS Batch.
 - [ ] AWS Artifact.
 - [ ] AWS Data Pipeline.
-- [ ] Amazon RDS.
+- [y] Amazon RDS.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?
-
+GG
 - [ ] IAM group.
-- [ ] IAM user.
+- [y] IAM user.
 - [ ] IAM role.
 - [ ] IAM policy.
 
@@ -5529,7 +5528,7 @@ GG
 
 - [ ] Ensuring that disk drives are wiped after use.
 - [ ] Ensuring that firmware is updated on hardware devices.
-- [ ] Ensuring that data is encrypted at rest.
+- [y] Ensuring that data is encrypted at rest.
 - [ ] Ensuring that network cables are category six or higher.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5539,16 +5538,16 @@ GG
 - [ ] Amazon S3.
 - [ ] Amazon Glacier.
 - [ ] Amazon EBS.
-- [ ] Amazon EFS.
+- [y] Amazon EFS.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What credential components are required to gain programmatic access to an AWS account? (Select TWO)
-
-- [ ] An access key ID.
+GG
+- [y] An access key ID.
 - [ ] A primary key.
 - [ ] A secret access key.
-- [ ] A user ID.
+- [y] A user ID.
 - [ ] A secondary key.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5558,14 +5557,14 @@ GG
 - [ ] Providing a key for Amazon S3 client-side encryption.
 - [ ] Configuration of an Amazon EC2 instance.
 - [ ] Environmental controls of physical AWS data centers.
-- [ ] Awareness.
+- [y] Awareness.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which type of AWS storage is ephemeral and is deleted when an instance is stopped Of terminated?
 
 - [ ] Amazon EBS.
-- [ ] Amazon EC2 instance store.
+- [y] Amazon EC2 instance store.
 - [ ] Amazon EFS.
 - [ ] Amazon S3.
 
@@ -5573,18 +5572,18 @@ GG
 
 ### Which of the following is an advantage of consolidated billing on AWS?
 
-- [ ] Volume pricing qualification.
-- [ ] Shared access permissions.
+- [y] Volume pricing qualification.
+- [ ] Shared access permissions. #m?
 - [ ] Multiple bills per account.
 - [ ] Eliminates the need for tagging.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which services are parts of the AWS serverless platform?
-
+GG
 - [ ] Amazon EC2, Amazon S3, Amazon Athena.
 - [ ] Amazon Kinesis, Amazon SQS, Amazon EMR.
-- [ ] AWS Step Functions, Amazon DynamoDB, Amazon SNS.
+- [y] AWS Step Functions, Amazon DynamoDB, Amazon SNS.
 - [ ] Amazon Athena, Amazon Cognito, Amazon EC2.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5593,7 +5592,7 @@ GG
 
 - [ ] Spot Instances.
 - [ ] Reserved Instances.
-- [ ] Dedicated Hosts.
+- [y] Dedicated Hosts.
 - [ ] On-Demand Instances.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5601,10 +5600,10 @@ GG
 ### Which of the following security measures protect access to an AWS account? (Select TWO)
 
 - [ ] Enable AWS CloudTrail.
-- [ ] Grant least privilege access to IAM users.
+- [y] Grant least privilege access to IAM users.
 - [ ] Create one IAM user and share with many developers and users.
 - [ ] Enable Amazon CloudFront.
-- [ ] Activate multi-factor authentication (MFA) for privileged users.
+- [y] Activate multi-factor authentication (MFA) for privileged users.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5613,14 +5612,14 @@ GG
 - [ ] AWS CodePipeline.
 - [ ] AWS CodeDeploy.
 - [ ] AWS Direct Connect.
-- [ ] AWS CloudFormation.
+- [y] AWS CloudFormation.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What is an advantage of deploying an application across multiple Availability Zones?
 
 - [ ] There is a lower risk of service failure if a natural disaster causes a service disruption in a given AWS Region.
-- [ ] The application will have higher availability because it can withstand a service disruption in one Availability Zone.
+- [y] The application will have higher availability because it can withstand a service disruption in one Availability Zone.
 - [ ] There will be better coverage as Availability Zones are geographical^ distant and can serve a wider area.
 - [ ] There will be decreased application latency that will improve the user experience.
 
@@ -5628,7 +5627,7 @@ GG
 
 ### A customer needs to run a MySQL database that easily scales. Which AWS service should they use?
 
-- [ ] Amazon Aurora.
+- [y] Amazon Aurora.
 - [ ] Amazon Redshift.
 - [ ] Amazon DynamoDB.
 - [ ] Amazon ElastiCache.
@@ -5638,7 +5637,7 @@ GG
 ### Which of the following is an AWS Cloud architecture design principle?
 
 - [ ] Implement single points of failure.
-- [ ] Implement loose coupling.
+- [y] Implement loose coupling.
 - [ ] Implement monolithic design.
 - [ ] Implement vertical scaling.
 
@@ -5648,7 +5647,7 @@ GG
 
 - [ ] AWS Trusted Advisor.
 - [ ] AWS Support case.
-- [ ] Concierge team.
+- [y] Concierge team.
 - [ ] Amazon Connect.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5657,14 +5656,14 @@ GG
 
 - [ ] Moving from variable operational expense ( opex ) to upfront capital expense (capex).
 - [ ] Moving from upfront capital expense (capex) to variable capital expense (capex).
-- [ ] Moving from upfront capital expense (capex) to variable operational expense ( opex ).
+- [y] Moving from upfront capital expense (capex) to variable operational expense ( opex ).
 - [ ] Elimination of upfront capital expense (capex) and elimination of variable operational expense ( opex ).
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### When performing a cost analysis that supports physical isolation of a customer workload, which compute hosting model should be accounted for in the Total Cost of Ownership (TCO)?
 
-- [ ] Dedicated Hosts
+- [y] Dedicated Hosts
 - [ ] Reserved Instances
 - [ ] On-Demand Instances
 - [ ] No Upfront Reserved Instances
@@ -5674,7 +5673,7 @@ GG
 ### Which AWS service should be used for long-term, low-cost storage of data backups?
 
 - [ ] Amazon RDS.
-- [ ] Amazon Glacier.
+- [y] Amazon Glacier.
 - [ ] AWS Snowball.
 - [ ] AWS EBS.
 
@@ -5683,7 +5682,7 @@ GG
 ### Which is the MINIMUM AWS Support plan that provides technical support through phone calls?
 
 - [ ] Enterprise.
-- [ ] Business.
+- [y] Business.
 - [ ] Developer.
 - [ ] Basic.
 
@@ -5694,7 +5693,8 @@ GG
 - [ ] Reserved Instances.
 - [ ] On-Demand.
 - [ ] Dedicated Hosts.
-- [ ] Spot Instances.
+- [y] Spot Instances.
+--------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 

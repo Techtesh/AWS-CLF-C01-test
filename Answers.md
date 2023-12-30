@@ -6127,9 +6127,9 @@ application needs it.
 
 - [ ] Firmware upgrades of network infrastructure.
 - [x] Patching of operating systems.
-- [x] Patching of the underlying hypervisor.
+- [ ] Patching of the underlying hypervisor.
 - [ ] Physical security of data centers.
-- [ ] Configuration of the security group.
+- [x] Configuration of the security group.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -6193,9 +6193,9 @@ application needs it.
 ### Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?
 
 - [ ] Amazon Inspector.
-- [x] AWS Web Application Firewall (AWS WAF).
+- [ ] AWS Web Application Firewall (AWS WAF).
 - [ ] Elastic Load Balancing (ELB).
-- [ ] AWS Shield.
+- [x] AWS Shield.
 
 **[⬆ Back to Top](#table-of-contents)**
 

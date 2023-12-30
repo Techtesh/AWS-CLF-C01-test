@@ -6094,7 +6094,6 @@ application needs it.
 - [y] AWS Identity and Access Management (IAM) policies.
 - [ ] Security Groups.
 
---------Till Here-------
 **[⬆ Back to Top](#table-of-contents)**
 
 ### How should a customer forecast the future costs for running a new web application?
@@ -6146,18 +6145,18 @@ GG
 ### Much AWS services provide a way to extend an on-premises architecture to the AWS Cloud? (Select TWO)
 
 - [ ] Amazon EBS.
-- [ ] AWS Direct Connect.
+- [y] AWS Direct Connect.
 - [ ] Amazon CloudFront.
-- [ ] AWS Storage Gateway.
-- [ ] Amazon Connect.
+- [y] AWS Storage Gateway.
+- [ ] Amazon Connect. #m
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What are the advantages of the AWS Cloud? (Select TWO)
 
 - [ ] Fixed rate monthly cost.
-- [ ] No need to guess capacity requirements.
-- [ ] Increased speed to market.
+- [y] No need to guess capacity requirements.
+- [y] Increased speed to market.
 - [ ] Increased upfront capital expenditure.
 - [ ] Physical access to cloud data centers.
 
@@ -6165,7 +6164,7 @@ GG
 
 ### How can the AWS Cloud increase user workforce productivity after migration from an on-premises data center?
 
-- [ ] Users do not have to wait for infrastructure provisioning.
+- [y] Users do not have to wait for infrastructure provisioning.
 - [ ] The AWS Cloud infrastructure is much faster than an on-premises data center infrastructure.
 - [ ] AWS takes over application configuration management on behalf of users.
 - [ ] Users do not need to address security and compliance issues.
@@ -6173,39 +6172,40 @@ GG
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following services could be used to deploy an application to servers running on-premises? (Select TWO)
-
-- [ ] AWS Elastic Beanstalk.
-- [ ] AWS OpsWorks.
-- [ ] AWS CodeDeploy.
+GG
+- [ ] AWS Elastic Beanstalk. #m
+- [y] AWS OpsWorks.
+- [y] AWS CodeDeploy.
 - [ ] AWS Batch.
 - [ ] AWS X-Ray.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What is an example of agility in the AWS Cloud?
-
+GG
 - [ ] Access to multiple instance types.
 - [ ] Access to managed services.
 - [ ] Using Consolidated Billing to produce one bill.
-- [ ] Decreased acquisition time for new compute resources.
+- [y] Decreased acquisition time for new compute resources.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?
 
 - [ ] Amazon Inspector.
-- [ ] AWS Web Application Firewall (AWS WAF).
+- [ ] AWS Web Application Firewall (AWS WAF).#k?
 - [ ] Elastic Load Balancing (ELB).
-- [ ] AWS Shield.
+- [y] AWS Shield.
 
+--------Till Here-------
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following are advantages of AWS consolidated billing? (Choose two)
 
-- [ ] The ability to receive one bill for multiple accounts.
+- [y] The ability to receive one bill for multiple accounts.
 - [ ] Service limits increasing by default in all accounts.
 - [ ] A fixed discount on the monthly bill.
-- [ ] Potential volume discounts, as usage in all accounts is combined.
+- [y] Potential volume discounts, as usage in all accounts is combined.
 - [ ] The automatic extension of the master account's AWS support plan to all accounts.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -6215,12 +6215,12 @@ GG
 - [ ] Amazon Redshift.
 - [ ] Amazon DynamoDB.
 - [ ] Amazon Elastic Compute Cloud (Amazon EC2) with Amazon EC2 instance store.
-- [ ] Amazon EC2 with Amazon Elastic Block Store (Amazon EBS).
+- [y] Amazon EC2 with Amazon Elastic Block Store (Amazon EBS).
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which type of mirroring does SPAN technology perform?
-
+??
 - [ ] Remote mirroring over Layer 2.
 - [ ] Remote mirroring over Layer 3.
 - [ ] Local mirroring over Layer 2.
@@ -6229,21 +6229,21 @@ GG
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your customer wants to grant restricted proxy rights to their HR Department to act on behalf of employees belonging to their legal entity. How can you perform this requirement? There are 2 correct answers to this question.
-
-- [ ] Use the Manage Permission Roles tool to grant proxy rights to the HR Department.
+GG
+- [y] Use the Manage Permission Roles tool to grant proxy rights to the HR Department.
 - [ ] Fill the PROXY column of the Basic Import template to match the requirements and import the file using the Import Employee Data tool.
 - [ ] Use the Proxy Management tool to configure the requested proxy assignments.
-- [ ] Fill the Basic Import template with the requested proxy configuration and import the file using the Import and Export Data tool.
+- [y] Fill the Basic Import template with the requested proxy configuration and import the file using the Import and Export Data tool.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which two statements about configuring a traffic monitoring session are true? (Choose two)
-
+GG
 - [ ] You can set a local VM as a traffic destination.
 - [ ] You can have up to two active monitoring sessions simultaneously.
-- [ ] An unlimited number of monitoring session can be stored.
+- [y] An unlimited number of monitoring session can be stored.
 - [ ] A newly created monitoring session is enabled by default.
-- [ ] A destination port can also be a source port within the same session.
+- [y] A destination port can also be a source port within the same session.
 - [ ] A vHBA can be a source for either an Ethernet or Fibre Channel monitoring session, but not both.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -6251,8 +6251,8 @@ GG
 ### What are the advantages of the AWS Cloud? (Select TWO)
 
 - [ ] AWS management of user-owned infrastructure.
-- [ ] Ability to quickly change required capacity.
-- [ ] High economies of scale.
+- [y] Ability to quickly change required capacity.
+- [y] High economies of scale.
 - [ ] Increased deployment time to market.
 - [ ] Increased fixed expenses.
 
@@ -6261,9 +6261,9 @@ GG
 ### A company wants to migrate its applications from its on-premises data center to a VPC in the AWS Cloud. These applications will need to access on-premises resources. Which actions will meet these requirements? (Choose TWO)
 
 - [ ] Use AWS Service Catalog to identify a list of on-premises resources that can be migrated.
-- [ ] Create a VPN connection between an on-premises device and a virtual private gateway in the VPC.
+- [y] Create a VPN connection between an on-premises device and a virtual private gateway in the VPC.
 - [ ] Use an Amazon CloudFront distribution and configure it to accelerate content delivery close to the on-premises resources.
-- [ ] Set up an AWS Direct Connect connection between the on-premises data center and AWS.
+- [y] Set up an AWS Direct Connect connection between the on-premises data center and AWS.
 - [ ] Use Amazon CloudFront to restrict access to static web content provided through the on-premises web servers.
 
 **[⬆ Back to Top](#table-of-contents)**

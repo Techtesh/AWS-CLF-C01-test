@@ -5899,13 +5899,12 @@ GG
 - [ ] AWS IAM.
 - [ ] Amazon Inspector.
 
---------Till Here-------
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which feature of the AWS Cloud will support an international company's requirement for low latency to all of its customers?
-
+GG
 - [ ] Fault tolerance.
-- [ ] Global reach.
+- [y] Global reach.
 - [ ] Pay-as-you-go pricing.
 - [ ] High availability.
 
@@ -5914,7 +5913,7 @@ GG
 ### How can one AWS account use Reserved Instances from another AWS account?
 
 - [ ] By using Amazon EC2 Dedicated Instances.
-- [ ] By using AWS Organizations consolidated billing.
+- [y] By using AWS Organizations consolidated billing.
 - [ ] By using the AWS Cost Explorer tool.
 - [ ] By using AWS Budgets.
 
@@ -5924,8 +5923,8 @@ GG
 
 - [ ] AWS automatically distributes the data globally for higher durability.
 - [ ] AWS will take care of operating the application.
-- [ ] AWS makes it easy to architect for high availability.
-- [ ] AWS can easily accommodate application demand changes.
+- [y] AWS makes it easy to architect for high availability.
+- [y] AWS can easily accommodate application demand changes.
 - [ ] AWS takes care of application security patching.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5933,7 +5932,7 @@ GG
 ### Which of the following services falls under the responsibility of the customer to maintain operating system configuration, security patching, and networking?
 
 - [ ] Amazon RDS.
-- [ ] Amazon EC2.
+- [y] Amazon EC2.
 - [ ] Amazon ElastiCache.
 - [ ] AWS Fargate.
 
@@ -5944,8 +5943,8 @@ GG
 - [ ] Implementing Amazon Rekognition.
 - [ ] Using AWS Shield-protected resources.
 - [ ] Blocking access with Security Groups.
-- [ ] Using Multi-Factor Authentication (MFA).
-- [ ] Enforcing password strength and expiration.
+- [y] Using Multi-Factor Authentication (MFA).
+- [y] Enforcing password strength and expiration.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5953,14 +5952,14 @@ GG
 
 - [ ] Amazon Glacier
 - [ ] AWS Snowball
-- [ ] AWS Storage Gateway
+- [y] AWS Storage Gateway
 - [ ] Amazon Elastic Block Storage (Amazon EBS)
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Where should a company go to search software listings from independent software vendors to find, test, buy and deploy software that runs on AWS?
 
-- [ ] AWS Marketplace.
+- [y] AWS Marketplace.
 - [ ] Amazon Lumberyard.
 - [ ] AWS Artifact.
 - [ ] Amazon CloudSearch.
@@ -5970,7 +5969,7 @@ GG
 ### Which of the following is a component of the AWS Global Infrastructure?
 
 - [ ] Amazon Alexa.
-- [ ] AWS Regions.
+- [y] AWS Regions.
 - [ ] Amazon Lightsail.
 - [ ] AWS Organizations.
 
@@ -5980,7 +5979,7 @@ GG
 
 - [ ] On-Demand Instances.
 - [ ] Reserved Instances.
-- [ ] Spot Instances.
+- [y] Spot Instances.
 - [ ] Convertible Reserved Instances.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5988,26 +5987,26 @@ GG
 ### A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources. What combination of actions will enable the company to accomplish this goals? (Select TWO)
 
 - [ ] Use the AWS Service Catalog to identify a list of on-premises resources that can be migrated.
-- [ ] Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC.
+- [y] Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC.
 - [ ] Use Amazon Athena to query data from the on-premises database servers.
-- [ ] Connect the company's on-premises data center to AWS using AWS Direct Connect.
+- [y] Connect the company's on-premises data center to AWS using AWS Direct Connect.
 - [ ] Leverage Amazon CloudFront to restrict access to static web content provided through the company's on-premises web servers.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?
-
+GG
 - [ ] Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.
-- [ ] Run AWS Trusted Advisor and review the findings.
-- [ ] Open the AWS IAM console and check the inbound rule filters for open access.
+- [y] Run AWS Trusted Advisor and review the findings.
+- [ ] Open the AWS IAM console and check the inbound rule filters for open access. #m?
 - [ ] In AWS Config, create a custom rule that invokes an AWS Lambda function to review firewall rules for inbound access.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following security-related services does AWS offer? (Select TWO)
 
-- [ ] Multi-factor authentication physical tokens.
-- [ ] AWS Trusted Advisor security checks.
+- [y] Multi-factor authentication physical tokens.
+- [y] AWS Trusted Advisor security checks.
 - [ ] Data encryption.
 - [ ] Automated penetration testing.
 - [ ] Amazon S3 copyrighted content detection.
@@ -6016,10 +6015,10 @@ GG
 
 ### Which of the following services have Distributed Denial of Service (DDoS) mitigation features? (Select TWO)
 
-- [ ] AWS WAF.
+- [y] AWS WAF.
 - [ ] Amazon DynamoDB.
 - [ ] Amazon EC2.
-- [ ] Amazon CloudFront.
+- [y] Amazon CloudFront.
 - [ ] Amazon Inspector.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -6027,7 +6026,7 @@ GG
 ### Which of the following AWS features enables a user to launch a pre-configured Amazon Elastic Compute Cloud (Amazon EC2) instance?
 
 - [ ] Amazon Elastic Block Store (Amazon EBS).
-- [ ] Amazon Machine Image.
+- [y] Amazon Machine Image.
 - [ ] Amazon EC2 Systems Manager.
 - [ ] Amazon AppStream 2.0.
 
@@ -6036,7 +6035,7 @@ GG
 ### A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?
 
 - [ ] Think parallel.
-- [ ] Implement elasticity.
+- [y] Implement elasticity.
 - [ ] Decouple your components.
 - [ ] Design for failure.
 
@@ -6046,14 +6045,14 @@ GG
 
 - [ ] Easy and fast deployment of applications in multiple Regions around the world.
 - [ ] Security of the AWS Cloud.
-- [ ] Elasticity of the AWS Cloud.
+- [y] Elasticity of the AWS Cloud.
 - [ ] Lower variable costs due to massive economies of scale.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What can users access from AWS Artifact?
 
-- [ ] AWS security and compliance documents.
+- [y] AWS security and compliance documents.
 - [ ] A download of configuration management details for all AWS resources.
 - [ ] Training materials for AWS services.
 - [ ] A security assessment of the applications deployed in the AWS Cloud.
@@ -6063,9 +6062,9 @@ GG
 ### Compared with costs in traditional and virtualized data centers, AWS has:
 
 - [ ] Greater variable costs and greater upfront costs.
-- [ ] Fixed usage costs and lower upfront costs.
+- [ ] Fixed usage costs and lower upfront costs. #m?
 - [ ] Lower variable costs and greater upfront costs.
-- [ ] Lower variable costs and lower upfront costs.
+- [y] Lower variable costs and lower upfront costs.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -6074,14 +6073,14 @@ GG
 - [ ] AWS Lambda.
 - [ ] Amazon DynamoDB Accelerator.
 - [ ] Amazon Route 53.
-- [ ] Amazon CloudFront.
+- [y] Amazon CloudFront.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### How do Amazon EC2 Auto Scaling groups help achieve high availability for a web application?
 
 - [ ] They automatically add more instances across multiple AWS Regions based on global demand of the application.
-- [ ] They automatically add or replace instances across multiple Availability Zones when the
+- [y] They automatically add or replace instances across multiple Availability Zones when the
 application needs it.
 - [ ] They enable the application's stalk: content to reside closer to end users.
 - [ ] They are able to distribute incoming requests across a tier of web server instances.
@@ -6092,17 +6091,18 @@ application needs it.
 
 - [ ] A public and private key-pair.
 - [ ] Amazon Inspector.
-- [ ] AWS Identity and Access Management (IAM) policies.
+- [y] AWS Identity and Access Management (IAM) policies.
 - [ ] Security Groups.
 
+--------Till Here-------
 **[⬆ Back to Top](#table-of-contents)**
 
 ### How should a customer forecast the future costs for running a new web application?
-
+GG
 - [ ] Amazon Aurora Backtrack.
 - [ ] Amazon CloudWatch Billing Alarms.
-- [ ] AWS Simple Monthly Calculator.
-- [ ] AWS Cost and Usage report.
+- [ ] AWS Simple Monthly Calculator. #m?
+- [y] AWS Cost and Usage report.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -6110,7 +6110,7 @@ application needs it.
 
 - [ ] Amazon Inspector.
 - [ ] AWS CloudTrail.
-- [ ] AWS Artifact.
+- [y] AWS Artifact.
 - [ ] AWS Certificate Manager.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -6119,7 +6119,7 @@ application needs it.
 
 - [ ] Encrypting client-side data.
 - [ ] Configuring AWS Identity and Access Management (IAM) roles.
-- [ ] Securing the Amazon EC2 hypervisor.
+- [y] Securing the Amazon EC2 hypervisor.
 - [ ] Setting user password policies.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -6127,10 +6127,10 @@ application needs it.
 ### Under the shared responsibility model which of the following areas are the customer's responsibility? (Select TWO)
 
 - [ ] Firmware upgrades of network infrastructure.
-- [ ] Patching of operating systems.
+- [y] Patching of operating systems.
 - [ ] Patching of the underlying hypervisor.
 - [ ] Physical security of data centers.
-- [ ] Configuration of the security group.
+- [y] Configuration of the security group.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -6139,7 +6139,7 @@ application needs it.
 - [ ] Amazon Simple Storage Service (Amazon S3).
 - [ ] Amazon DynamoDB.
 - [ ] Amazon Kinesis.
-- [ ] Amazon Redshift.
+- [y] Amazon Redshift.
 
 **[⬆ Back to Top](#table-of-contents)**
 

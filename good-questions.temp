@@ -926,3 +926,18 @@ Correct Answer: A
 - [ ] AWS Systems Manager.
 - [x] AWS Partner Network (APN).
 - [ ] AWS Secrets Manager.
+
+## A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?
+
+- [ ] Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.
+- [x] Run AWS Trusted Advisor and review the findings.
+- [ ] Open the AWS IAM console and check the inbound rule filters for open access.
+- [ ] In AWS Config, create a custom rule that invokes an AWS Lambda function to review firewall rules for inbound access.
+
+### Which of the following security-related services does AWS offer? (Select TWO)
+
+- [ ] Multi-factor authentication physical tokens.
+- [x] AWS Trusted Advisor security checks.
+- [x] Data encryption.
+- [ ] Automated penetration testing.
+- [ ] Amazon S3 copyrighted content detection.

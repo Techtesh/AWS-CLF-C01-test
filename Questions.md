@@ -5694,33 +5694,32 @@ GG
 - [ ] On-Demand.
 - [ ] Dedicated Hosts.
 - [y] Spot Instances.
---------Till Here-------
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO)
 
 - [ ] appGateway.
-- [ ] Amazon S3.
+- [y] Amazon S3.
 - [ ] Amazon Elastic File System (EFS).
 - [ ] Amazon Glacier.
-- [ ] Amazom CloudFront.
+- [y] Amazom CloudFront.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What can AWS edge locations be used for? (Select TWO)
-
+GG
 - [ ] Hosting applications.
-- [ ] Delivering content closer to users.
+- [y] Delivering content closer to users.
 - [ ] Running NoSQL database caching services.
-- [ ] Reducing traffic on the server by caching responses.
-- [ ] Sending notification messages to end users.
+- [y] Reducing traffic on the server by caching responses.
+- [ ] Sending notification messages to end users. #m?
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A company is planning to migrate from on-premises to the AWS Cloud. When AWS tool or service provides detailed reports on estimated cost savings after migration?
 
-- [ ] AWS Total Cost of Ownership (TCO) Calculator.
+- [y] AWS Total Cost of Ownership (TCO) Calculator.
 - [ ] Cost Explorer.
 - [ ] AWS Budgets.
 - [ ] AWS Migration Hub.
@@ -5728,11 +5727,11 @@ GG
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS service provides a customized view of the health of specific AWS services that power a customer's workloads running on AWS?
-
+GG
 - [ ] AWS Service Health Dashboard.
 - [ ] AWS X-Ray.
 - [ ] AWS Personal Health Dashboard.
-- [ ] Amazon CloudWatch.
+- [y] Amazon CloudWatch.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5740,7 +5739,7 @@ GG
 
 - [ ] It allows the business to eliminate IT bills.
 - [ ] It allows the business to put a server in each customer's data center.
-- [ ] It allows the business to focus on business activities.
+- [y] It allows the business to focus on business activities.
 - [ ] It allows the business to leave servers unpatched.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5749,8 +5748,8 @@ GG
 
 - [ ] AWS Senior Support Engineers.
 - [ ] AWS Technical Account Managers.
-- [ ] AWS Trusted Advisor.
-- [ ] AWS Discussion Forums.
+- [y] AWS Trusted Advisor.
+- [ ] AWS Discussion Forums. #user
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5758,7 +5757,7 @@ GG
 
 - [ ] Deploy applications across multiple Availability Zones within an AWS Region.
 - [ ] Use a hybrid cloud computing deployment model within the geographic area.
-- [ ] Deploy applications across multiple AWS Regions.
+- [y] Deploy applications across multiple AWS Regions.
 - [ ] Store application artifacts using AWS Artifact and replicate them across multiple AWS Regions.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5768,7 +5767,7 @@ GG
 - [ ] Ensuring network connectivity from AWS to the internet.
 - [ ] Patching and fixing flaws within the AWS Cloud infrastructure.
 - [ ] Ensuring the physical security of cloud data centers.
-- [ ] Ensuring Amazon EBS volumes are backed up.
+- [y] Ensuring Amazon EBS volumes are backed up.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5777,15 +5776,15 @@ GG
 - [ ] A company wants to move its main website to AWS from an on-premises web server.
 - [ ] A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.
 - [ ] A company's heavily used legacy database is currently running on-premises.
-- [ ] A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances.
+- [y] A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A customer is deploying a new application and needs to choose an AWS Region. Which of the following factors could influence the customer's decision? (Select TWO)
 
-- [ ] Reduced latency to users.
+- [y] Reduced latency to users.
 - [ ] The application's presentation in the local language.
-- [ ] Data sovereignty compliance.
+- [y] Data sovereignty compliance.
 - [ ] Cooling costs in hotter climates.
 - [ ] Proximity to the customer's office for on-site visits.
 
@@ -5794,9 +5793,9 @@ GG
 ### Which AWS service provides alerts when an AWS event may impact a company's AWS resources?
 
 - [ ] AWS Personal Health Dashboard.
-- [ ] AWS Service Health Dashboard.
+- [y] AWS Service Health Dashboard.
 - [ ] AWS Trusted Advisor.
-- [ ] AWS Infrastructure Event Management.
+- [ ] AWS Infrastructure Event Management. #m?
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5804,7 +5803,7 @@ GG
 
 - [ ] Backup and restore.
 - [ ] Pilot light.
-- [ ] Warm standby.
+- [y] Warm standby.
 - [ ] Multi-site active-active.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5814,23 +5813,23 @@ GG
 - [ ] Amazon CodeStar.
 - [ ] AWS Command Line Interface (AWS CLI).
 - [ ] Amazon Cognito.
-- [ ] AWS CodeCommit.
+- [y] AWS CodeCommit.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### How can a customer increase security to AWS account logons? (Select TWO)
 
 - [ ] Configure AWS Certificate Manager
-- [ ] Enable Multi-Factor Authentication (MFA)
+- [y] Enable Multi-Factor Authentication (MFA)
 - [ ] Use Amazon Cognito to manage access
-- [ ] Configure a strong password policy
+- [y] Configure a strong password policy
 - [ ] Enable AWS Organizations
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following components of the AWS Global Infrastructure consists of one or more discrete data centers interconnected through low latency links?
 
-- [ ] Availability Zone
+- [y] Availability Zone
 - [ ] Edge location
 - [ ] Region
 - [ ] Private networking
@@ -5839,7 +5838,7 @@ GG
 
 ### One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:
 
-- [ ] The ability to bid for a lower hourly cost.
+- [y] The ability to bid for a lower hourly cost.
 - [ ] Paying a daily rate regardless of time used.
 - [ ] Paying only for time used.
 - [ ] Pre-paying for instances and paying a lower hourly rate.
@@ -5847,11 +5846,11 @@ GG
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What can assist in evaluating an application for migration to the cloud? (Select TWO)
-
+GG
 - [ ] AWS Trusted Advisor.
 - [ ] AWS Professional Services.
-- [ ] AWS Systems Manager.
-- [ ] AWS Partner Network (APN).
+- [y] AWS Systems Manager.
+- [y] AWS Partner Network (APN).
 - [ ] AWS Secrets Manager.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5859,17 +5858,17 @@ GG
 ### A characteristic of edge locations is that they:
 
 - [ ] Host Amazon EC2 instances closer to users.
-- [ ] Help lower latency and improve performance for users.
-- [ ] Cache frequently changing data without reaching the origin server.
+- [y] Help lower latency and improve performance for users.
+- [ ] Cache frequently changing data without reaching the origin server. #m?
 - [ ] Refresh data changes daily.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which of the following are valid ways for a customer to interact with AWS services? (Select TWO)
 
-- [ ] Command line interface.
+- [y] Command line interface.
 - [ ] On-premises.
-- [ ] Software Development Kits.
+- [y] Software Development Kits.
 - [ ] Software-as-a-service.
 - [ ] Hybrid.
 
@@ -5878,7 +5877,7 @@ GG
 ### What is a value proposition of the AWS Cloud?
 
 - [ ] AWS is responsible for security in the AWS Cloud.
-- [ ] No long-term contract is required.
+- [y] No long-term contract is required.
 - [ ] Provision new servers in days.
 - [ ] AWS manages user applications in the AWS Cloud.
 
@@ -5889,17 +5888,18 @@ GG
 - [ ] Amazon EC2 Spot Instances.
 - [ ] Amazon EC2 Dedicated Instances.
 - [ ] Amazon EC2 On-Demand Instances.
-- [ ] Amazon EC2 Reserved Instances.
+- [y] Amazon EC2 Reserved Instances.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which AWS service is used to track record, and audit configuration changes made to AWS resources?
 
 - [ ] AWS Shield.
-- [ ] AWS Config.
+- [y] AWS Config.
 - [ ] AWS IAM.
 - [ ] Amazon Inspector.
 
+--------Till Here-------
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which feature of the AWS Cloud will support an international company's requirement for low latency to all of its customers?

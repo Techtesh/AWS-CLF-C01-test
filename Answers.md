@@ -5719,9 +5719,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company is planning to migrate from on-premises to the AWS Cloud. When AWS tool or service provides detailed reports on estimated cost savings after migration?
 
-- [ ] AWS Total Cost of Ownership (TCO) Calculator.
+- [x] AWS Total Cost of Ownership (TCO) Calculator.
 - [ ] Cost Explorer.
-- [x] AWS Budgets.
+- [ ] AWS Budgets.
 - [ ] AWS Migration Hub.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5858,8 +5858,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A characteristic of edge locations is that they:
 
 - [ ] Host Amazon EC2 instances closer to users.
-- [ ] Help lower latency and improve performance for users.
-- [x] Cache frequently changing data without reaching the origin server.
+- [y] Help lower latency and improve performance for users.
+- [ ] Cache frequently changing data without reaching the origin server.
 - [ ] Refresh data changes daily.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -5876,8 +5876,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What is a value proposition of the AWS Cloud?
 
-- [x] AWS is responsible for security in the AWS Cloud.
-- [ ] No long-term contract is required.
+- [ ] AWS is responsible for security in the AWS Cloud.
+- [y] No long-term contract is required.
 - [ ] Provision new servers in days.
 - [ ] AWS manages user applications in the AWS Cloud.
 

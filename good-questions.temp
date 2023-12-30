@@ -1,29 +1,31 @@
 @Revision Topics
-Glacier
-Elastic Beanstalk
 AWS Migration Hub
-CloudHSM
-Amazon Connect.
 AWS Quick Starts
 AWS Operations Support
+AWS Cloud9
+AWS Application Discovery Service.
+AWS Backup
+AWS Control Tower.
+AWS Systems Manager Patch Manager.
+Glacier
+AWS Systems Manager Patch Manager AWS Security Hub.
+Elastic Beanstalk
+CloudHSM
+Amazon Connect.
 DAX
 Amazon Cloud Directory
-AWS Cloud9
 Amazon Chime
 Amazon Polly
 Amazon Neptune
 Amazon SWF.
-AWS Application Discovery Service.
+Amazon MQ.
+Amazon Macie.
 CloudEndure Disaster Recovery
 CloudEndure Migration.
-AWS Backup
-Amazon MQ.
-AWS Control Tower.
-Amazon Macie.
-AWS Systems Manager Patch Manager.
-AWS Systems Manager Patch Manager AWS Security Hub.
-Amazon Connect. vs Amazon CloudFront.
+Amazon Connect. 
 AWS VPN. vs  API Gateway.
+AWS Personal Health Dashboard.vs Service Health Dashboard.
+AWS Infrastructure Event Management.
 Q3: A business analyst would like to move away from creating complex database queries and static spreadsheets when generating regular reports for high-level management. They would like to publish insightful, graphically appealing reports with interactive dashboards. Which service can they use to accomplish this?
 
 A. Amazon QuickSight
@@ -888,3 +890,39 @@ Correct Answer: A
 - [ ] Amazon Kinesis, Amazon SQS, Amazon EMR.
 - [x] AWS Step Functions, Amazon DynamoDB, Amazon SNS.
 - [ ] Amazon Athena, Amazon Cognito, Amazon EC2.
+
+### Which AWS service provides a customized view of the health of specific AWS services that power a customer's workloads running on AWS?
+
+- [ ] AWS Service Health Dashboard.
+- [ ] AWS X-Ray.
+- [x] AWS Personal Health Dashboard.
+- [ ] Amazon CloudWatch.
+
+### Which AWS service provides alerts when an AWS event may impact a company's AWS resources?
+
+- [x] AWS Personal Health Dashboard.
+- [ ] AWS Service Health Dashboard.
+- [ ] AWS Trusted Advisor.
+- [ ] AWS Infrastructure Event Management.
+
+### Which disaster recovery scenario offers the lowest probability of down time?
+
+- [ ] Backup and restore.
+- [ ] Pilot light.
+- [ ] Warm standby.
+- [x] Multi-site active-active.
+
+### One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:
+
+- [ ] The ability to bid for a lower hourly cost.
+- [ ] Paying a daily rate regardless of time used.
+- [x] Paying only for time used.
+- [ ] Pre-paying for instances and paying a lower hourly rate.
+
+## What can assist in evaluating an application for migration to the cloud? (Select TWO)
+
+- [ ] AWS Trusted Advisor.
+- [x] AWS Professional Services.
+- [ ] AWS Systems Manager.
+- [x] AWS Partner Network (APN).
+- [ ] AWS Secrets Manager.
